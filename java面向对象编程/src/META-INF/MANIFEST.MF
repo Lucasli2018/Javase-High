@@ -1,0 +1,2 @@
+Manifest-Version: 1.0
+Main-Class: com.lucas.javase.oop.basic.jar.Main
