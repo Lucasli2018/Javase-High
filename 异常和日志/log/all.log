@@ -1,0 +1,60 @@
+04-03 23:12:09.952 [main] INFO  com.lucas.javase.exception.Log4j.Main
+Create person Xiao Ming
+
+04-03 23:12:09.954 [main] INFO  com.lucas.javase.exception.Log4j.Main
+call hello(): Hello, Xiao Ming!
+
+04-03 23:12:09.954 [main] ERROR com.lucas.javase.exception.Log4j.Main
+Error when create person.
+
+java.lang.IllegalArgumentException: name is null.
+	at com.lucas.javase.exception.Log4j.Person.<init>(Person.java:15) ~[bin/:?]
+	at com.lucas.javase.exception.Log4j.Main.main(Main.java:19) [bin/:?]
+04-03 23:12:09.956 [main] INFO  com.lucas.javase.exception.Log4j.Main
+Program end.
+
+04-03 23:14:11.671 [main] INFO  com.lucas.javase.exception.Log4j.Main
+Create person Xiao Ming
+
+04-03 23:14:11.673 [main] INFO  com.lucas.javase.exception.Log4j.Main
+call hello(): Hello, Xiao Ming!
+
+04-03 23:14:11.675 [main] ERROR com.lucas.javase.exception.Log4j.Main
+Error when create person.
+
+java.lang.IllegalArgumentException: name is null.
+	at com.lucas.javase.exception.Log4j.Person.<init>(Person.java:15) ~[bin/:?]
+	at com.lucas.javase.exception.Log4j.Main.main(Main.java:19) [bin/:?]
+04-03 23:14:11.678 [main] INFO  com.lucas.javase.exception.Log4j.Main
+Program end.
+
+04-03 23:23:42.645 [main] INFO  com.lucas.javase.exception.Log4j.Main
+Create person Xiao Ming
+
+04-03 23:23:42.646 [main] INFO  com.lucas.javase.exception.Log4j.Main
+call hello(): Hello, Xiao Ming!
+
+04-03 23:23:42.647 [main] ERROR com.lucas.javase.exception.Log4j.Main
+Error when create person.
+
+java.lang.IllegalArgumentException: name is null.
+	at com.lucas.javase.exception.Log4j.Person.<init>(Person.java:15) ~[bin/:?]
+	at com.lucas.javase.exception.Log4j.Main.main(Main.java:19) [bin/:?]
+04-03 23:23:42.651 [main] INFO  com.lucas.javase.exception.Log4j.Main
+Program end.
+
+04-03 23:23:44.214 [main] INFO  com.lucas.javase.exception.Log4j.Main
+Create person Xiao Ming
+
+04-03 23:23:44.216 [main] INFO  com.lucas.javase.exception.Log4j.Main
+call hello(): Hello, Xiao Ming!
+
+04-03 23:23:44.216 [main] ERROR com.lucas.javase.exception.Log4j.Main
+Error when create person.
+
+java.lang.IllegalArgumentException: name is null.
+	at com.lucas.javase.exception.Log4j.Person.<init>(Person.java:15) ~[bin/:?]
+	at com.lucas.javase.exception.Log4j.Main.main(Main.java:19) [bin/:?]
+04-03 23:23:44.219 [main] INFO  com.lucas.javase.exception.Log4j.Main
+Program end.
+

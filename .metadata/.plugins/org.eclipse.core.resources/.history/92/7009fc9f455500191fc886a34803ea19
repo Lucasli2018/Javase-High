@@ -1,0 +1,20 @@
+package com.lucas.javase.oop.basic.polymorphic;
+
+
+public class Main {
+
+	public static void main(String[] args) {
+		Person p = new Person("Xiao Ming");
+		Person s = new Student("Xiao Hong");
+		p.run();
+		s.run();
+		System.out.println(p.hello());
+		System.out.println(s.hello());
+	}
+	
+	static void run(Person p){
+		System.out.println(p.hello());
+		p.run();
+	}
+
+}

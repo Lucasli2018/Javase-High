@@ -1,0 +1,10 @@
+package com.lucas.javase.oop.basic.abstractClass;
+
+public class Rect extends  Shape{
+
+	@Override
+	public double area() {
+		
+	}
+
+}

@@ -1,0 +1,12 @@
+package com.lucas.javase.oop.basic.javaBean;
+
+
+public class Person {
+
+	private String name;
+	private int age;
+	private boolean gender;
+	private String address;
+
+
+}
