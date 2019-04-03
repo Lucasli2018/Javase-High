@@ -1,0 +1,2733 @@
+04-04 00:38:27.933 [main] INFO  com.lucas.javase.demo.maven.App
+可以写日志啦，好开心
+
+04-04 00:40:48.006 [main] INFO  com.lucas.javase.demo.maven.App
+可以写日志啦，好开心
+
+04-04 01:04:50.246 [main] INFO  com.lucas.javase.mybatis.demo.JdbcDemo
+加载数据库驱动
+
+04-04 01:04:50.254 [main] INFO  com.lucas.javase.mybatis.demo.JdbcDemo
+通过驱动管理类获取数据库链接connection = DriverManager
+
+04-04 01:04:50.443 [main] INFO  com.lucas.javase.mybatis.demo.JdbcDemo
+释放资源
+
+04-04 01:06:18.348 [main] INFO  com.lucas.javase.mybatis.demo.JdbcDemo
+加载数据库驱动
+
+04-04 01:06:18.354 [main] INFO  com.lucas.javase.mybatis.demo.JdbcDemo
+通过驱动管理类获取数据库链接connection = DriverManager
+
+04-04 01:06:18.539 [main] INFO  com.lucas.javase.mybatis.demo.JdbcDemo
+释放资源
+
+04-04 01:06:42.015 [main] INFO  com.lucas.javase.mybatis.demo.JdbcDemo
+加载数据库驱动
+
+04-04 01:06:57.837 [main] INFO  com.lucas.javase.mybatis.demo.JdbcDemo
+通过驱动管理类获取数据库链接connection = DriverManager
+
+04-04 01:09:18.586 [main] INFO  com.lucas.javase.mybatis.demo.JdbcDemo
+加载数据库驱动
+
+04-04 01:09:18.598 [main] INFO  com.lucas.javase.mybatis.demo.JdbcDemo
+通过驱动管理类获取数据库链接connection = DriverManager
+
+04-04 01:09:18.789 [main] INFO  com.lucas.javase.mybatis.demo.JdbcDemo
+释放资源
+
+04-04 01:09:26.229 [main] INFO  com.lucas.javase.mybatis.demo.JdbcDemo
+加载数据库驱动
+
+04-04 01:09:26.237 [main] INFO  com.lucas.javase.mybatis.demo.JdbcDemo
+通过驱动管理类获取数据库链接connection = DriverManager
+
+04-04 01:09:26.462 [main] INFO  com.lucas.javase.mybatis.demo.JdbcDemo
+定义sql语句 ?表示占位符
+
+04-04 01:09:26.462 [main] INFO  com.lucas.javase.mybatis.demo.JdbcDemo
+获取预处理 statement
+
+04-04 01:09:26.469 [main] INFO  com.lucas.javase.mybatis.demo.JdbcDemo
+设置参数，第一个参数为 sql 语句中参数的序号（从 1 开始），第二个参数为设置的值
+
+04-04 01:09:26.469 [main] INFO  com.lucas.javase.mybatis.demo.JdbcDemo
+向数据库发出 sql 执行查询，查询出结果集
+
+04-04 01:09:26.472 [main] INFO  com.lucas.javase.mybatis.demo.JdbcDemo
+遍历查询结果集resultSet.next()
+
+04-04 01:09:26.472 [main] INFO  com.lucas.javase.mybatis.demo.JdbcDemo
+释放资源
+
+04-04 01:21:31.183 [main] INFO  com.lucas.javase.mybatis.demo.JdbcDemo
+加载数据库驱动
+
+04-04 01:21:31.192 [main] INFO  com.lucas.javase.mybatis.demo.JdbcDemo
+通过驱动管理类获取数据库链接connection = DriverManager
+
+04-04 01:21:31.457 [main] INFO  com.lucas.javase.mybatis.demo.JdbcDemo
+定义sql语句 ?表示占位符
+
+04-04 01:21:31.457 [main] INFO  com.lucas.javase.mybatis.demo.JdbcDemo
+获取预处理 statement
+
+04-04 01:21:31.465 [main] INFO  com.lucas.javase.mybatis.demo.JdbcDemo
+设置参数，第一个参数为 sql 语句中参数的序号（从 1 开始），第二个参数为设置的值
+
+04-04 01:21:31.465 [main] INFO  com.lucas.javase.mybatis.demo.JdbcDemo
+向数据库发出 sql 执行查询，查询出结果集
+
+04-04 01:21:31.466 [main] INFO  com.lucas.javase.mybatis.demo.JdbcDemo
+遍历查询结果集resultSet.next()
+
+04-04 01:21:31.466 [main] INFO  com.lucas.javase.mybatis.demo.JdbcDemo
+释放资源
+
+04-04 01:22:36.612 [main] INFO  com.lucas.javase.mybatis.demo.JdbcDemo
+加载数据库驱动
+
+04-04 01:22:36.618 [main] INFO  com.lucas.javase.mybatis.demo.JdbcDemo
+通过驱动管理类获取数据库链接connection = DriverManager
+
+04-04 01:22:36.986 [main] INFO  com.lucas.javase.mybatis.demo.JdbcDemo
+定义sql语句 ?表示占位符
+
+04-04 01:22:36.986 [main] INFO  com.lucas.javase.mybatis.demo.JdbcDemo
+获取预处理 statement
+
+04-04 01:22:36.995 [main] INFO  com.lucas.javase.mybatis.demo.JdbcDemo
+设置参数，第一个参数为 sql 语句中参数的序号（从 1 开始），第二个参数为设置的值
+
+04-04 01:22:36.995 [main] INFO  com.lucas.javase.mybatis.demo.JdbcDemo
+向数据库发出 sql 执行查询，查询出结果集
+
+04-04 01:22:36.996 [main] INFO  com.lucas.javase.mybatis.demo.JdbcDemo
+遍历查询结果集resultSet.next()
+
+04-04 01:22:36.997 [main] INFO  com.lucas.javase.mybatis.demo.JdbcDemo
+释放资源
+
+04-04 01:24:09.241 [main] INFO  com.lucas.javase.mybatis.demo.JdbcDemo
+加载数据库驱动
+
+04-04 01:24:09.247 [main] INFO  com.lucas.javase.mybatis.demo.JdbcDemo
+通过驱动管理类获取数据库链接connection = DriverManager
+
+04-04 01:24:09.485 [main] INFO  com.lucas.javase.mybatis.demo.JdbcDemo
+定义sql语句 ?表示占位符
+
+04-04 01:24:09.485 [main] INFO  com.lucas.javase.mybatis.demo.JdbcDemo
+获取预处理 statement
+
+04-04 01:24:09.493 [main] INFO  com.lucas.javase.mybatis.demo.JdbcDemo
+设置参数，第一个参数为 sql 语句中参数的序号（从 1 开始），第二个参数为设置的值
+
+04-04 01:24:09.493 [main] INFO  com.lucas.javase.mybatis.demo.JdbcDemo
+向数据库发出 sql 执行查询，查询出结果集
+
+04-04 01:24:09.493 [main] INFO  com.lucas.javase.mybatis.demo.JdbcDemo
+遍历查询结果集resultSet.next()
+
+04-04 01:24:09.494 [main] INFO  com.lucas.javase.mybatis.demo.JdbcDemo
+1 老郭2019-03-25
+
+04-04 01:24:09.494 [main] INFO  com.lucas.javase.mybatis.demo.JdbcDemo
+2 老郭null
+
+04-04 01:24:09.494 [main] INFO  com.lucas.javase.mybatis.demo.JdbcDemo
+3 lucasnull
+
+04-04 01:24:09.495 [main] INFO  com.lucas.javase.mybatis.demo.JdbcDemo
+4 lucynull
+
+04-04 01:24:09.495 [main] INFO  com.lucas.javase.mybatis.demo.JdbcDemo
+5 alicenull
+
+04-04 01:24:09.495 [main] INFO  com.lucas.javase.mybatis.demo.JdbcDemo
+6 peternull
+
+04-04 01:24:09.495 [main] INFO  com.lucas.javase.mybatis.demo.JdbcDemo
+7 ericnull
+
+04-04 01:24:09.495 [main] INFO  com.lucas.javase.mybatis.demo.JdbcDemo
+8 herrynull
+
+04-04 01:24:09.495 [main] INFO  com.lucas.javase.mybatis.demo.JdbcDemo
+释放资源
+
+04-04 01:24:25.844 [main] INFO  com.lucas.javase.mybatis.demo.JdbcDemo
+加载数据库驱动
+
+04-04 01:24:25.854 [main] INFO  com.lucas.javase.mybatis.demo.JdbcDemo
+通过驱动管理类获取数据库链接connection = DriverManager
+
+04-04 01:24:26.074 [main] INFO  com.lucas.javase.mybatis.demo.JdbcDemo
+定义sql语句 ?表示占位符
+
+04-04 01:24:26.074 [main] INFO  com.lucas.javase.mybatis.demo.JdbcDemo
+获取预处理 statement
+
+04-04 01:24:26.083 [main] INFO  com.lucas.javase.mybatis.demo.JdbcDemo
+设置参数，第一个参数为 sql 语句中参数的序号（从 1 开始），第二个参数为设置的值
+
+04-04 01:24:26.083 [main] INFO  com.lucas.javase.mybatis.demo.JdbcDemo
+向数据库发出 sql 执行查询，查询出结果集
+
+04-04 01:24:26.084 [main] INFO  com.lucas.javase.mybatis.demo.JdbcDemo
+遍历查询结果集resultSet.next()
+
+04-04 01:24:26.086 [main] INFO  com.lucas.javase.mybatis.demo.JdbcDemo
+1 老郭 2019-03-25
+
+04-04 01:24:26.086 [main] INFO  com.lucas.javase.mybatis.demo.JdbcDemo
+2 老郭 null
+
+04-04 01:24:26.086 [main] INFO  com.lucas.javase.mybatis.demo.JdbcDemo
+3 lucas null
+
+04-04 01:24:26.086 [main] INFO  com.lucas.javase.mybatis.demo.JdbcDemo
+4 lucy null
+
+04-04 01:24:26.087 [main] INFO  com.lucas.javase.mybatis.demo.JdbcDemo
+5 alice null
+
+04-04 01:24:26.087 [main] INFO  com.lucas.javase.mybatis.demo.JdbcDemo
+6 peter null
+
+04-04 01:24:26.087 [main] INFO  com.lucas.javase.mybatis.demo.JdbcDemo
+7 eric null
+
+04-04 01:24:26.087 [main] INFO  com.lucas.javase.mybatis.demo.JdbcDemo
+8 herry null
+
+04-04 01:24:26.087 [main] INFO  com.lucas.javase.mybatis.demo.JdbcDemo
+释放资源
+
+04-04 01:25:12.170 [main] INFO  com.lucas.javase.mybatis.demo.JdbcDemo
+加载数据库驱动
+
+04-04 01:25:12.179 [main] INFO  com.lucas.javase.mybatis.demo.JdbcDemo
+通过驱动管理类获取数据库链接connection = DriverManager
+
+04-04 01:25:12.404 [main] INFO  com.lucas.javase.mybatis.demo.JdbcDemo
+定义sql语句 ?表示占位符
+
+04-04 01:25:12.406 [main] INFO  com.lucas.javase.mybatis.demo.JdbcDemo
+获取预处理 statement
+
+04-04 01:25:12.413 [main] INFO  com.lucas.javase.mybatis.demo.JdbcDemo
+设置参数，第一个参数为 sql 语句中参数的序号（从 1 开始），第二个参数为设置的值
+
+04-04 01:25:12.413 [main] INFO  com.lucas.javase.mybatis.demo.JdbcDemo
+向数据库发出 sql 执行查询，查询出结果集
+
+04-04 01:25:12.414 [main] INFO  com.lucas.javase.mybatis.demo.JdbcDemo
+遍历查询结果集resultSet.next()
+
+04-04 01:25:12.415 [main] INFO  com.lucas.javase.mybatis.demo.JdbcDemo
+1 老郭 2019-03-25
+
+04-04 01:25:12.415 [main] INFO  com.lucas.javase.mybatis.demo.JdbcDemo
+2 老郭 2019-04-04
+
+04-04 01:25:12.415 [main] INFO  com.lucas.javase.mybatis.demo.JdbcDemo
+3 lucas 2019-04-04
+
+04-04 01:25:12.415 [main] INFO  com.lucas.javase.mybatis.demo.JdbcDemo
+4 lucy 2019-04-04
+
+04-04 01:25:12.415 [main] INFO  com.lucas.javase.mybatis.demo.JdbcDemo
+5 alice 2019-04-04
+
+04-04 01:25:12.415 [main] INFO  com.lucas.javase.mybatis.demo.JdbcDemo
+6 peter 2019-04-04
+
+04-04 01:25:12.416 [main] INFO  com.lucas.javase.mybatis.demo.JdbcDemo
+7 eric 2019-04-04
+
+04-04 01:25:12.416 [main] INFO  com.lucas.javase.mybatis.demo.JdbcDemo
+8 herry 2019-04-04
+
+04-04 01:25:12.416 [main] INFO  com.lucas.javase.mybatis.demo.JdbcDemo
+释放资源
+
+04-04 01:25:48.521 [main] INFO  com.lucas.javase.mybatis.demo.JdbcDemo
+加载数据库驱动
+
+04-04 01:25:48.528 [main] INFO  com.lucas.javase.mybatis.demo.JdbcDemo
+通过驱动管理类获取数据库链接connection = DriverManager
+
+04-04 01:25:48.757 [main] INFO  com.lucas.javase.mybatis.demo.JdbcDemo
+定义sql语句 ?表示占位符
+
+04-04 01:25:48.757 [main] INFO  com.lucas.javase.mybatis.demo.JdbcDemo
+获取预处理 statement
+
+04-04 01:25:48.764 [main] INFO  com.lucas.javase.mybatis.demo.JdbcDemo
+设置参数，第一个参数为 sql 语句中参数的序号（从 1 开始），第二个参数为设置的值
+
+04-04 01:25:48.765 [main] INFO  com.lucas.javase.mybatis.demo.JdbcDemo
+向数据库发出 sql 执行查询，查询出结果集
+
+04-04 01:25:48.766 [main] INFO  com.lucas.javase.mybatis.demo.JdbcDemo
+遍历查询结果集resultSet.next()
+
+04-04 01:25:48.767 [main] INFO  com.lucas.javase.mybatis.demo.JdbcDemo
+1 老郭 2019-03-25
+
+04-04 01:25:48.768 [main] INFO  com.lucas.javase.mybatis.demo.JdbcDemo
+2 老郭 2019-04-04
+
+04-04 01:25:48.768 [main] INFO  com.lucas.javase.mybatis.demo.JdbcDemo
+3 lucas 2019-04-04
+
+04-04 01:25:48.768 [main] INFO  com.lucas.javase.mybatis.demo.JdbcDemo
+4 lucy 2019-04-04
+
+04-04 01:25:48.768 [main] INFO  com.lucas.javase.mybatis.demo.JdbcDemo
+5 alice 2019-04-04
+
+04-04 01:25:48.768 [main] INFO  com.lucas.javase.mybatis.demo.JdbcDemo
+6 peter 2019-04-04
+
+04-04 01:25:48.769 [main] INFO  com.lucas.javase.mybatis.demo.JdbcDemo
+7 eric 2019-04-04
+
+04-04 01:25:48.769 [main] INFO  com.lucas.javase.mybatis.demo.JdbcDemo
+8 herry 2019-04-04
+
+04-04 01:25:48.769 [main] INFO  com.lucas.javase.mybatis.demo.JdbcDemo
+释放资源
+
+04-04 01:41:43.996 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+指定全局配置文件路径
+
+04-04 01:41:43.999 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+加载资源文件（全局配置文件和映射文件）
+
+04-04 01:41:44.001 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+使用构建者模式，去创建SqlSessionFactory对象
+
+04-04 01:41:44.184 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+由SqlSessionFactory工厂去创建SqlSession（会话）
+
+04-04 01:41:44.188 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+调用sqlsession接口，去实现数据库的增删改查操作--->test.findUserListByName
+
+04-04 01:41:44.436 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+释放资源
+
+04-04 01:41:44.437 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+指定全局配置文件路径
+
+04-04 01:41:44.437 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+加载资源文件（全局配置文件和映射文件）
+
+04-04 01:41:44.437 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+使用构建者模式，去创建SqlSessionFactory对象
+
+04-04 01:41:44.449 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+由SqlSessionFactory工厂去创建SqlSession（会话）
+
+04-04 01:41:44.450 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+调用sqlsession接口，去实现数据库的增删改查操作
+
+04-04 01:41:44.465 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+释放资源
+
+04-04 01:41:44.465 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+指定全局配置文件路径
+
+04-04 01:41:44.466 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+加载资源文件（全局配置文件和映射文件）
+
+04-04 01:41:44.466 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+使用构建者模式，去创建SqlSessionFactory对象
+
+04-04 01:41:44.487 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+由SqlSessionFactory工厂去创建SqlSession（会话）
+
+04-04 01:41:44.487 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+调用sqlsession接口，去实现数据库的增删改查操作---->test.findUserById
+
+04-04 01:42:23.081 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+============================
+
+04-04 01:42:23.084 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+指定全局配置文件路径
+
+04-04 01:42:23.085 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+加载资源文件（全局配置文件和映射文件）
+
+04-04 01:42:23.086 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+使用构建者模式，去创建SqlSessionFactory对象
+
+04-04 01:42:23.268 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+由SqlSessionFactory工厂去创建SqlSession（会话）
+
+04-04 01:42:23.273 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+调用sqlsession接口，去实现数据库的增删改查操作--->test.findUserListByName
+
+04-04 01:42:23.542 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+释放资源
+
+04-04 01:42:23.544 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+============================
+
+04-04 01:42:23.544 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+指定全局配置文件路径
+
+04-04 01:42:23.544 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+加载资源文件（全局配置文件和映射文件）
+
+04-04 01:42:23.544 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+使用构建者模式，去创建SqlSessionFactory对象
+
+04-04 01:42:23.557 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+由SqlSessionFactory工厂去创建SqlSession（会话）
+
+04-04 01:42:23.558 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+调用sqlsession接口，去实现数据库的增删改查操作
+
+04-04 01:42:23.575 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+释放资源
+
+04-04 01:42:23.575 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+============================
+
+04-04 01:42:23.575 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+指定全局配置文件路径
+
+04-04 01:42:23.576 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+加载资源文件（全局配置文件和映射文件）
+
+04-04 01:42:23.576 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+使用构建者模式，去创建SqlSessionFactory对象
+
+04-04 01:42:23.599 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+由SqlSessionFactory工厂去创建SqlSession（会话）
+
+04-04 01:42:23.599 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+调用sqlsession接口，去实现数据库的增删改查操作---->test.findUserById
+
+04-04 01:43:35.848 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+============================
+
+04-04 01:43:35.851 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+指定全局配置文件路径
+
+04-04 01:43:35.851 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+加载资源文件（全局配置文件和映射文件）
+
+04-04 01:43:35.852 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+使用构建者模式，去创建SqlSessionFactory对象
+
+04-04 01:43:36.044 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+由SqlSessionFactory工厂去创建SqlSession（会话）
+
+04-04 01:43:36.050 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+调用sqlsession接口，去实现数据库的增删改查操作--->test.findUserListByName
+
+04-04 01:43:36.318 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+[User [id=3, username=lucas, birthday=Thu Apr 04 01:24:41 CST 2019, sex=男, address=null], User [id=5, username=alice, birthday=Thu Apr 04 01:24:45 CST 2019, sex=男, address=null], User [id=9, username=SNH-lucas, birthday=null, sex=男, address=上海], User [id=10, username=SNH-lucas, birthday=null, sex=男, address=上海]]
+
+04-04 01:43:36.318 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+释放资源
+
+04-04 01:43:36.319 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+============================
+
+04-04 01:43:36.319 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+指定全局配置文件路径
+
+04-04 01:43:36.319 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+加载资源文件（全局配置文件和映射文件）
+
+04-04 01:43:36.319 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+使用构建者模式，去创建SqlSessionFactory对象
+
+04-04 01:43:36.332 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+由SqlSessionFactory工厂去创建SqlSession（会话）
+
+04-04 01:43:36.332 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+调用sqlsession接口，去实现数据库的增删改查操作--->test.insertUser
+
+04-04 01:43:36.346 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+释放资源
+
+04-04 01:43:36.347 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+============================
+
+04-04 01:43:36.347 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+指定全局配置文件路径
+
+04-04 01:43:36.347 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+加载资源文件（全局配置文件和映射文件）
+
+04-04 01:43:36.347 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+使用构建者模式，去创建SqlSessionFactory对象
+
+04-04 01:43:36.368 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+由SqlSessionFactory工厂去创建SqlSession（会话）
+
+04-04 01:43:36.368 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+调用sqlsession接口，去实现数据库的增删改查操作---->test.findUserById
+
+04-04 01:45:12.259 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+============================
+
+04-04 01:45:12.262 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+指定全局配置文件路径
+
+04-04 01:45:12.262 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+加载资源文件（全局配置文件和映射文件）
+
+04-04 01:45:12.264 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+使用构建者模式，去创建SqlSessionFactory对象
+
+04-04 01:45:12.427 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+由SqlSessionFactory工厂去创建SqlSession（会话）
+
+04-04 01:45:12.431 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+调用sqlsession接口，去实现数据库的增删改查操作--->test.findUserListByName
+
+04-04 01:45:12.802 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+[User [id=3, username=lucas, birthday=Thu Apr 04 01:24:41 CST 2019, sex=男, address=null], User [id=5, username=alice, birthday=Thu Apr 04 01:24:45 CST 2019, sex=男, address=null], User [id=9, username=SNH-lucas, birthday=null, sex=男, address=上海], User [id=10, username=SNH-lucas, birthday=null, sex=男, address=上海], User [id=11, username=SNH-lucas, birthday=null, sex=男, address=上海]]
+
+04-04 01:45:12.802 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+释放资源
+
+04-04 01:45:12.804 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+============================
+
+04-04 01:45:12.804 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+指定全局配置文件路径
+
+04-04 01:45:12.804 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+加载资源文件（全局配置文件和映射文件）
+
+04-04 01:45:12.804 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+使用构建者模式，去创建SqlSessionFactory对象
+
+04-04 01:45:12.820 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+由SqlSessionFactory工厂去创建SqlSession（会话）
+
+04-04 01:45:12.820 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+调用sqlsession接口，去实现数据库的增删改查操作--->test.insertUser
+
+04-04 01:45:12.834 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+释放资源
+
+04-04 01:45:12.834 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+============================
+
+04-04 01:45:12.834 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+指定全局配置文件路径
+
+04-04 01:45:12.835 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+加载资源文件（全局配置文件和映射文件）
+
+04-04 01:45:12.835 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+使用构建者模式，去创建SqlSessionFactory对象
+
+04-04 01:45:12.861 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+由SqlSessionFactory工厂去创建SqlSession（会话）
+
+04-04 01:45:12.861 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+调用sqlsession接口，去实现数据库的增删改查操作---->test.findUserById
+
+04-04 01:46:02.739 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+============================
+
+04-04 01:46:02.741 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+指定全局配置文件路径
+
+04-04 01:46:02.742 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+加载资源文件（全局配置文件和映射文件）
+
+04-04 01:46:02.743 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+使用构建者模式，去创建SqlSessionFactory对象
+
+04-04 01:46:02.898 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+由SqlSessionFactory工厂去创建SqlSession（会话）
+
+04-04 01:46:02.903 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+调用sqlsession接口，去实现数据库的增删改查操作--->test.findUserListByName
+
+04-04 01:46:03.179 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+[User [id=3, username=lucas, birthday=Thu Apr 04 01:24:41 CST 2019, sex=男, address=null], User [id=5, username=alice, birthday=Thu Apr 04 01:24:45 CST 2019, sex=男, address=null], User [id=9, username=SNH-lucas, birthday=null, sex=男, address=上海], User [id=10, username=SNH-lucas, birthday=null, sex=男, address=上海], User [id=11, username=SNH-lucas, birthday=null, sex=男, address=上海], User [id=12, username=SNH-lucas, birthday=null, sex=男, address=上海]]
+
+04-04 01:46:03.180 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+释放资源
+
+04-04 01:46:03.181 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+============================
+
+04-04 01:46:03.181 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+指定全局配置文件路径
+
+04-04 01:46:03.181 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+加载资源文件（全局配置文件和映射文件）
+
+04-04 01:46:03.182 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+使用构建者模式，去创建SqlSessionFactory对象
+
+04-04 01:46:03.197 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+由SqlSessionFactory工厂去创建SqlSession（会话）
+
+04-04 01:46:03.197 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+调用sqlsession接口，去实现数据库的增删改查操作--->test.insertUser
+
+04-04 01:46:03.208 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+释放资源
+
+04-04 01:46:03.209 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+============================
+
+04-04 01:46:03.209 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+指定全局配置文件路径
+
+04-04 01:46:03.209 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+加载资源文件（全局配置文件和映射文件）
+
+04-04 01:46:03.210 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+使用构建者模式，去创建SqlSessionFactory对象
+
+04-04 01:46:03.228 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+由SqlSessionFactory工厂去创建SqlSession（会话）
+
+04-04 01:46:03.229 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+调用sqlsession接口，去实现数据库的增删改查操作---->test.findUserById
+
+04-04 01:46:13.590 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+============================
+
+04-04 01:46:13.592 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+指定全局配置文件路径
+
+04-04 01:46:13.592 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+加载资源文件（全局配置文件和映射文件）
+
+04-04 01:46:13.594 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+使用构建者模式，去创建SqlSessionFactory对象
+
+04-04 01:46:13.794 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+由SqlSessionFactory工厂去创建SqlSession（会话）
+
+04-04 01:46:13.803 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+调用sqlsession接口，去实现数据库的增删改查操作--->test.findUserListByName
+
+04-04 01:46:14.059 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+[User [id=3, username=lucas, birthday=Thu Apr 04 01:24:41 CST 2019, sex=男, address=null], User [id=5, username=alice, birthday=Thu Apr 04 01:24:45 CST 2019, sex=男, address=null], User [id=9, username=SNH-lucas, birthday=null, sex=男, address=上海], User [id=10, username=SNH-lucas, birthday=null, sex=男, address=上海], User [id=11, username=SNH-lucas, birthday=null, sex=男, address=上海], User [id=12, username=SNH-lucas, birthday=null, sex=男, address=上海], User [id=13, username=SNH-lucas, birthday=null, sex=男, address=上海]]
+
+04-04 01:46:14.059 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+释放资源
+
+04-04 01:46:14.060 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+============================
+
+04-04 01:46:14.060 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+指定全局配置文件路径
+
+04-04 01:46:14.060 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+加载资源文件（全局配置文件和映射文件）
+
+04-04 01:46:14.061 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+使用构建者模式，去创建SqlSessionFactory对象
+
+04-04 01:46:14.074 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+由SqlSessionFactory工厂去创建SqlSession（会话）
+
+04-04 01:46:14.074 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+调用sqlsession接口，去实现数据库的增删改查操作--->test.insertUser
+
+04-04 01:46:14.658 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+释放资源
+
+04-04 01:46:14.662 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+============================
+
+04-04 01:46:14.663 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+指定全局配置文件路径
+
+04-04 01:46:14.664 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+加载资源文件（全局配置文件和映射文件）
+
+04-04 01:46:14.666 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+使用构建者模式，去创建SqlSessionFactory对象
+
+04-04 01:46:14.726 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+由SqlSessionFactory工厂去创建SqlSession（会话）
+
+04-04 01:46:18.959 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+调用sqlsession接口，去实现数据库的增删改查操作---->test.findUserById
+
+04-04 01:46:54.124 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+============================
+
+04-04 01:46:54.126 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+指定全局配置文件路径
+
+04-04 01:46:54.126 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+加载资源文件（全局配置文件和映射文件）
+
+04-04 01:46:54.128 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+使用构建者模式，去创建SqlSessionFactory对象
+
+04-04 01:46:54.346 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+由SqlSessionFactory工厂去创建SqlSession（会话）
+
+04-04 01:46:54.350 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+调用sqlsession接口，去实现数据库的增删改查操作--->test.findUserListByName
+
+04-04 01:46:54.654 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+[User [id=3, username=lucas, birthday=Thu Apr 04 01:24:41 CST 2019, sex=男, address=null], User [id=5, username=alice, birthday=Thu Apr 04 01:24:45 CST 2019, sex=男, address=null], User [id=9, username=SNH-lucas, birthday=null, sex=男, address=上海], User [id=10, username=SNH-lucas, birthday=null, sex=男, address=上海], User [id=11, username=SNH-lucas, birthday=null, sex=男, address=上海], User [id=12, username=SNH-lucas, birthday=null, sex=男, address=上海], User [id=13, username=SNH-lucas, birthday=null, sex=男, address=上海], User [id=14, username=SNH-lucas, birthday=null, sex=男, address=上海]]
+
+04-04 01:46:54.655 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+释放资源
+
+04-04 01:46:54.656 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+============================
+
+04-04 01:46:54.656 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+指定全局配置文件路径
+
+04-04 01:46:54.656 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+加载资源文件（全局配置文件和映射文件）
+
+04-04 01:46:54.657 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+使用构建者模式，去创建SqlSessionFactory对象
+
+04-04 01:46:54.671 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+由SqlSessionFactory工厂去创建SqlSession（会话）
+
+04-04 01:46:54.672 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+调用sqlsession接口，去实现数据库的增删改查操作--->test.insertUser
+
+04-04 01:46:54.689 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+释放资源
+
+04-04 01:46:54.689 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+============================
+
+04-04 01:46:54.690 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+指定全局配置文件路径
+
+04-04 01:46:54.690 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+加载资源文件（全局配置文件和映射文件）
+
+04-04 01:46:54.690 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+使用构建者模式，去创建SqlSessionFactory对象
+
+04-04 01:46:54.712 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+由SqlSessionFactory工厂去创建SqlSession（会话）
+
+04-04 01:46:54.712 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+调用sqlsession接口，去实现数据库的增删改查操作---->test.findUserById
+
+04-04 01:47:42.856 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+============================
+
+04-04 01:47:42.858 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+指定全局配置文件路径
+
+04-04 01:47:42.859 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+加载资源文件（全局配置文件和映射文件）
+
+04-04 01:47:42.860 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+使用构建者模式，去创建SqlSessionFactory对象
+
+04-04 01:47:43.022 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+由SqlSessionFactory工厂去创建SqlSession（会话）
+
+04-04 01:47:43.027 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+调用sqlsession接口，去实现数据库的增删改查操作--->test.findUserListByName
+
+04-04 01:47:43.302 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+[User [id=3, username=lucas, birthday=Thu Apr 04 01:24:41 CST 2019, sex=男, address=null], User [id=5, username=alice, birthday=Thu Apr 04 01:24:45 CST 2019, sex=男, address=null], User [id=9, username=SNH-lucas, birthday=null, sex=男, address=上海], User [id=10, username=SNH-lucas, birthday=null, sex=男, address=上海], User [id=11, username=SNH-lucas, birthday=null, sex=男, address=上海], User [id=12, username=SNH-lucas, birthday=null, sex=男, address=上海], User [id=13, username=SNH-lucas, birthday=null, sex=男, address=上海], User [id=14, username=SNH-lucas, birthday=null, sex=男, address=上海], User [id=15, username=SNH-lucas, birthday=null, sex=男, address=上海]]
+
+04-04 01:47:43.303 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+释放资源
+
+04-04 01:47:43.304 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+============================
+
+04-04 01:47:43.304 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+指定全局配置文件路径
+
+04-04 01:47:43.304 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+加载资源文件（全局配置文件和映射文件）
+
+04-04 01:47:43.304 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+使用构建者模式，去创建SqlSessionFactory对象
+
+04-04 01:47:43.316 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+由SqlSessionFactory工厂去创建SqlSession（会话）
+
+04-04 01:47:43.317 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+调用sqlsession接口，去实现数据库的增删改查操作--->test.insertUser
+
+04-04 01:47:43.331 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+释放资源
+
+04-04 01:47:43.332 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+============================
+
+04-04 01:47:43.332 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+指定全局配置文件路径
+
+04-04 01:47:43.332 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+加载资源文件（全局配置文件和映射文件）
+
+04-04 01:47:43.332 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+使用构建者模式，去创建SqlSessionFactory对象
+
+04-04 01:47:43.349 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+由SqlSessionFactory工厂去创建SqlSession（会话）
+
+04-04 01:47:43.350 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+调用sqlsession接口，去实现数据库的增删改查操作---->test.findUserById
+
+04-04 01:49:09.319 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+============================
+
+04-04 01:49:09.321 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+指定全局配置文件路径
+
+04-04 01:49:09.322 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+加载资源文件（全局配置文件和映射文件）
+
+04-04 01:49:09.323 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+使用构建者模式，去创建SqlSessionFactory对象
+
+04-04 01:49:09.492 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+由SqlSessionFactory工厂去创建SqlSession（会话）
+
+04-04 01:49:09.495 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+调用sqlsession接口，去实现数据库的增删改查操作--->test.findUserListByName
+
+04-04 01:49:09.742 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+[User [id=3, username=lucas, birthday=Thu Apr 04 01:24:41 CST 2019, sex=男, address=null], User [id=5, username=alice, birthday=Thu Apr 04 01:24:45 CST 2019, sex=男, address=null], User [id=9, username=SNH-lucas, birthday=null, sex=男, address=上海], User [id=10, username=SNH-lucas, birthday=null, sex=男, address=上海], User [id=11, username=SNH-lucas, birthday=null, sex=男, address=上海], User [id=12, username=SNH-lucas, birthday=null, sex=男, address=上海], User [id=13, username=SNH-lucas, birthday=null, sex=男, address=上海], User [id=14, username=SNH-lucas, birthday=null, sex=男, address=上海], User [id=15, username=SNH-lucas, birthday=null, sex=男, address=上海], User [id=16, username=SNH-lucas, birthday=null, sex=男, address=上海]]
+
+04-04 01:49:09.742 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+释放资源
+
+04-04 01:49:09.743 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+============================
+
+04-04 01:49:09.743 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+指定全局配置文件路径
+
+04-04 01:49:09.743 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+加载资源文件（全局配置文件和映射文件）
+
+04-04 01:49:09.744 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+使用构建者模式，去创建SqlSessionFactory对象
+
+04-04 01:49:09.757 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+由SqlSessionFactory工厂去创建SqlSession（会话）
+
+04-04 01:49:09.757 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+调用sqlsession接口，去实现数据库的增删改查操作--->test.insertUser
+
+04-04 01:49:09.773 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+释放资源
+
+04-04 01:49:09.773 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+============================
+
+04-04 01:49:09.773 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+指定全局配置文件路径
+
+04-04 01:49:09.773 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+加载资源文件（全局配置文件和映射文件）
+
+04-04 01:49:09.774 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+使用构建者模式，去创建SqlSessionFactory对象
+
+04-04 01:49:09.796 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+由SqlSessionFactory工厂去创建SqlSession（会话）
+
+04-04 01:49:09.797 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+调用sqlsession接口，去实现数据库的增删改查操作---->test.findUserById
+
+04-04 01:50:36.279 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+============================
+
+04-04 01:50:36.281 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+指定全局配置文件路径
+
+04-04 01:50:36.281 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+加载资源文件（全局配置文件和映射文件）
+
+04-04 01:50:36.283 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+使用构建者模式，去创建SqlSessionFactory对象
+
+04-04 01:50:36.448 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+由SqlSessionFactory工厂去创建SqlSession（会话）
+
+04-04 01:50:36.451 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+调用sqlsession接口，去实现数据库的增删改查操作--->test.findUserListByName
+
+04-04 01:50:36.758 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+[User [id=3, username=lucas, birthday=2019-04-04 01:24:41.0, sex=男, address=null], User [id=5, username=alice, birthday=2019-04-04 01:24:45.0, sex=男, address=null], User [id=9, username=SNH-lucas, birthday=null, sex=男, address=上海], User [id=10, username=SNH-lucas, birthday=null, sex=男, address=上海], User [id=11, username=SNH-lucas, birthday=null, sex=男, address=上海], User [id=12, username=SNH-lucas, birthday=null, sex=男, address=上海], User [id=13, username=SNH-lucas, birthday=null, sex=男, address=上海], User [id=14, username=SNH-lucas, birthday=null, sex=男, address=上海], User [id=15, username=SNH-lucas, birthday=null, sex=男, address=上海], User [id=16, username=SNH-lucas, birthday=null, sex=男, address=上海], User [id=17, username=SNH-lucas, birthday=null, sex=男, address=上海]]
+
+04-04 01:50:36.759 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+释放资源
+
+04-04 01:50:36.760 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+============================
+
+04-04 01:50:36.760 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+指定全局配置文件路径
+
+04-04 01:50:36.760 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+加载资源文件（全局配置文件和映射文件）
+
+04-04 01:50:36.760 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+使用构建者模式，去创建SqlSessionFactory对象
+
+04-04 01:50:36.778 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+由SqlSessionFactory工厂去创建SqlSession（会话）
+
+04-04 01:50:36.779 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+调用sqlsession接口，去实现数据库的增删改查操作--->test.insertUser
+
+04-04 01:50:36.789 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+释放资源
+
+04-04 01:50:36.789 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+============================
+
+04-04 01:50:36.790 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+指定全局配置文件路径
+
+04-04 01:50:36.790 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+加载资源文件（全局配置文件和映射文件）
+
+04-04 01:50:36.790 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+使用构建者模式，去创建SqlSessionFactory对象
+
+04-04 01:50:36.818 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+由SqlSessionFactory工厂去创建SqlSession（会话）
+
+04-04 01:50:36.818 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+调用sqlsession接口，去实现数据库的增删改查操作---->test.findUserById
+
+04-04 01:51:00.509 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+============================
+
+04-04 01:51:00.511 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+指定全局配置文件路径
+
+04-04 01:51:00.511 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+加载资源文件（全局配置文件和映射文件）
+
+04-04 01:51:00.513 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+使用构建者模式，去创建SqlSessionFactory对象
+
+04-04 01:51:00.678 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+由SqlSessionFactory工厂去创建SqlSession（会话）
+
+04-04 01:51:00.681 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+调用sqlsession接口，去实现数据库的增删改查操作--->test.findUserListByName
+
+04-04 01:51:00.982 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+[User [id=3, username=lucas, birthday=2019-04-04 01:24:41.0, sex=男, address=null], User [id=5, username=alice, birthday=2019-04-04 01:24:45.0, sex=男, address=null], User [id=9, username=SNH-lucas, birthday=null, sex=男, address=上海], User [id=10, username=SNH-lucas, birthday=null, sex=男, address=上海], User [id=11, username=SNH-lucas, birthday=null, sex=男, address=上海], User [id=12, username=SNH-lucas, birthday=null, sex=男, address=上海], User [id=13, username=SNH-lucas, birthday=null, sex=男, address=上海], User [id=14, username=SNH-lucas, birthday=null, sex=男, address=上海], User [id=15, username=SNH-lucas, birthday=null, sex=男, address=上海], User [id=16, username=SNH-lucas, birthday=null, sex=男, address=上海], User [id=17, username=SNH-lucas, birthday=null, sex=男, address=上海], User [id=18, username=SNH-lucas, birthday=null, sex=男, address=上海]]
+
+04-04 01:51:00.982 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+释放资源
+
+04-04 01:51:00.983 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+============================
+
+04-04 01:51:00.983 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+指定全局配置文件路径
+
+04-04 01:51:00.984 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+加载资源文件（全局配置文件和映射文件）
+
+04-04 01:51:00.984 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+使用构建者模式，去创建SqlSessionFactory对象
+
+04-04 01:51:00.999 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+由SqlSessionFactory工厂去创建SqlSession（会话）
+
+04-04 01:51:01.000 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+调用sqlsession接口，去实现数据库的增删改查操作--->test.insertUser
+
+04-04 01:51:01.016 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+释放资源
+
+04-04 01:51:01.017 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+============================
+
+04-04 01:51:01.017 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+指定全局配置文件路径
+
+04-04 01:51:01.017 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+加载资源文件（全局配置文件和映射文件）
+
+04-04 01:51:01.017 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+使用构建者模式，去创建SqlSessionFactory对象
+
+04-04 01:51:01.039 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+由SqlSessionFactory工厂去创建SqlSession（会话）
+
+04-04 01:51:01.040 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+调用sqlsession接口，去实现数据库的增删改查操作---->test.findUserById
+
+04-04 01:55:24.086 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+============================
+
+04-04 01:55:24.088 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+指定全局配置文件路径
+
+04-04 01:55:24.088 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+加载资源文件（全局配置文件和映射文件）
+
+04-04 01:55:24.089 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+使用构建者模式，去创建SqlSessionFactory对象
+
+04-04 01:55:24.229 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+============================
+
+04-04 01:55:24.229 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+指定全局配置文件路径
+
+04-04 01:55:24.229 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+加载资源文件（全局配置文件和映射文件）
+
+04-04 01:55:24.230 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+使用构建者模式，去创建SqlSessionFactory对象
+
+04-04 01:55:24.250 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+============================
+
+04-04 01:55:24.251 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+指定全局配置文件路径
+
+04-04 01:55:24.251 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+加载资源文件（全局配置文件和映射文件）
+
+04-04 01:55:24.252 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+使用构建者模式，去创建SqlSessionFactory对象
+
+04-04 01:55:24.271 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+============================
+
+04-04 01:55:24.271 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+指定全局配置文件路径
+
+04-04 01:55:24.271 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+加载资源文件（全局配置文件和映射文件）
+
+04-04 01:55:24.272 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+使用构建者模式，去创建SqlSessionFactory对象
+
+04-04 01:56:23.073 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+============================
+
+04-04 01:56:23.075 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+指定全局配置文件路径
+
+04-04 01:56:23.075 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+加载资源文件（全局配置文件和映射文件）
+
+04-04 01:56:23.077 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+使用构建者模式，去创建SqlSessionFactory对象
+
+04-04 01:56:44.333 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+============================
+
+04-04 01:56:44.335 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+指定全局配置文件路径
+
+04-04 01:56:44.335 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+加载资源文件（全局配置文件和映射文件）
+
+04-04 01:56:44.336 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+使用构建者模式，去创建SqlSessionFactory对象
+
+04-04 01:56:44.467 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+由SqlSessionFactory工厂去创建SqlSession（会话）
+
+04-04 01:56:44.471 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+调用sqlsession接口，去实现数据库的增删改查操作--->test.deleteUserById
+
+04-04 01:56:44.720 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+返回值是1
+
+04-04 01:56:44.725 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+释放资源
+
+04-04 01:59:06.114 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+============================
+
+04-04 01:59:06.117 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+指定全局配置文件路径
+
+04-04 01:59:06.117 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+加载资源文件（全局配置文件和映射文件）
+
+04-04 01:59:06.119 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+使用构建者模式，去创建SqlSessionFactory对象
+
+04-04 01:59:06.275 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+由SqlSessionFactory工厂去创建SqlSession（会话）
+
+04-04 01:59:06.279 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+调用sqlsession接口，去实现数据库的增删改查操作--->test.deleteUserByName
+
+04-04 01:59:06.540 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+返回值是11
+
+04-04 01:59:06.543 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+释放资源
+
+04-04 01:59:06.544 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+============================
+
+04-04 01:59:06.544 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+指定全局配置文件路径
+
+04-04 01:59:06.544 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+加载资源文件（全局配置文件和映射文件）
+
+04-04 01:59:06.545 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+使用构建者模式，去创建SqlSessionFactory对象
+
+04-04 01:59:06.560 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+由SqlSessionFactory工厂去创建SqlSession（会话）
+
+04-04 01:59:06.560 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+调用sqlsession接口，去实现数据库的增删改查操作--->test.findUserListByName
+
+04-04 01:59:06.587 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+[User [id=3, username=lucas, birthday=2019-04-04 01:24:41.0, sex=男, address=null], User [id=5, username=alice, birthday=2019-04-04 01:24:45.0, sex=男, address=null]]
+
+04-04 01:59:06.587 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+释放资源
+
+04-04 01:59:06.587 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+============================
+
+04-04 01:59:06.587 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+指定全局配置文件路径
+
+04-04 01:59:06.587 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+加载资源文件（全局配置文件和映射文件）
+
+04-04 01:59:06.588 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+使用构建者模式，去创建SqlSessionFactory对象
+
+04-04 01:59:06.610 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+由SqlSessionFactory工厂去创建SqlSession（会话）
+
+04-04 01:59:06.611 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+调用sqlsession接口，去实现数据库的增删改查操作--->test.insertUser
+
+04-04 01:59:06.624 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+释放资源
+
+04-04 01:59:06.625 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+============================
+
+04-04 01:59:06.625 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+指定全局配置文件路径
+
+04-04 01:59:06.625 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+加载资源文件（全局配置文件和映射文件）
+
+04-04 01:59:06.625 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+使用构建者模式，去创建SqlSessionFactory对象
+
+04-04 01:59:06.642 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+由SqlSessionFactory工厂去创建SqlSession（会话）
+
+04-04 01:59:06.642 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+调用sqlsession接口，去实现数据库的增删改查操作---->test.findUserById
+
+04-04 01:59:06.654 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+============================
+
+04-04 01:59:06.654 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+指定全局配置文件路径
+
+04-04 01:59:06.654 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+加载资源文件（全局配置文件和映射文件）
+
+04-04 01:59:06.655 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+使用构建者模式，去创建SqlSessionFactory对象
+
+04-04 01:59:06.680 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+由SqlSessionFactory工厂去创建SqlSession（会话）
+
+04-04 01:59:06.680 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+调用sqlsession接口，去实现数据库的增删改查操作--->test.deleteUserById
+
+04-04 01:59:06.688 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+返回值是0
+
+04-04 01:59:06.688 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+释放资源
+
+04-04 01:59:53.457 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+============================
+
+04-04 01:59:53.460 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+指定全局配置文件路径
+
+04-04 01:59:53.460 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+加载资源文件（全局配置文件和映射文件）
+
+04-04 01:59:53.462 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+使用构建者模式，去创建SqlSessionFactory对象
+
+04-04 01:59:53.653 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+由SqlSessionFactory工厂去创建SqlSession（会话）
+
+04-04 01:59:53.658 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+调用sqlsession接口，去实现数据库的增删改查操作--->test.deleteUserByName
+
+04-04 01:59:53.886 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+删除数据 1 行
+
+04-04 01:59:53.891 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+释放资源
+
+04-04 01:59:53.892 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+============================
+
+04-04 01:59:53.893 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+指定全局配置文件路径
+
+04-04 01:59:53.893 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+加载资源文件（全局配置文件和映射文件）
+
+04-04 01:59:53.893 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+使用构建者模式，去创建SqlSessionFactory对象
+
+04-04 01:59:53.907 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+由SqlSessionFactory工厂去创建SqlSession（会话）
+
+04-04 01:59:53.907 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+调用sqlsession接口，去实现数据库的增删改查操作--->test.findUserListByName
+
+04-04 01:59:53.933 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+[User [id=3, username=lucas, birthday=2019-04-04 01:24:41.0, sex=男, address=null], User [id=5, username=alice, birthday=2019-04-04 01:24:45.0, sex=男, address=null]]
+
+04-04 01:59:53.933 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+释放资源
+
+04-04 01:59:53.933 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+============================
+
+04-04 01:59:53.933 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+指定全局配置文件路径
+
+04-04 01:59:53.934 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+加载资源文件（全局配置文件和映射文件）
+
+04-04 01:59:53.934 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+使用构建者模式，去创建SqlSessionFactory对象
+
+04-04 01:59:53.956 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+由SqlSessionFactory工厂去创建SqlSession（会话）
+
+04-04 01:59:53.957 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+调用sqlsession接口，去实现数据库的增删改查操作--->test.insertUser
+
+04-04 01:59:53.966 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+释放资源
+
+04-04 01:59:53.967 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+============================
+
+04-04 01:59:53.967 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+指定全局配置文件路径
+
+04-04 01:59:53.967 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+加载资源文件（全局配置文件和映射文件）
+
+04-04 01:59:53.968 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+使用构建者模式，去创建SqlSessionFactory对象
+
+04-04 01:59:53.984 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+由SqlSessionFactory工厂去创建SqlSession（会话）
+
+04-04 01:59:53.985 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+调用sqlsession接口，去实现数据库的增删改查操作---->test.findUserById
+
+04-04 01:59:53.996 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+============================
+
+04-04 01:59:53.996 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+指定全局配置文件路径
+
+04-04 01:59:53.996 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+加载资源文件（全局配置文件和映射文件）
+
+04-04 01:59:53.996 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+使用构建者模式，去创建SqlSessionFactory对象
+
+04-04 01:59:54.023 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+由SqlSessionFactory工厂去创建SqlSession（会话）
+
+04-04 01:59:54.023 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+调用sqlsession接口，去实现数据库的增删改查操作--->test.deleteUserById
+
+04-04 01:59:54.029 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+删除数据 0 行
+
+04-04 01:59:54.030 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+释放资源
+
+04-04 02:00:31.927 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+============================
+
+04-04 02:00:31.929 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+指定全局配置文件路径
+
+04-04 02:00:31.929 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+加载资源文件（全局配置文件和映射文件）
+
+04-04 02:00:31.930 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+使用构建者模式，去创建SqlSessionFactory对象
+
+04-04 02:00:32.101 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+由SqlSessionFactory工厂去创建SqlSession（会话）
+
+04-04 02:00:32.105 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+调用sqlsession接口，去实现数据库的增删改查操作--->test.deleteUserByName
+
+04-04 02:00:32.325 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+删除数据 1 行
+
+04-04 02:00:32.327 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+释放资源
+
+04-04 02:00:32.328 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+============================
+
+04-04 02:00:32.328 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+指定全局配置文件路径
+
+04-04 02:00:32.329 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+加载资源文件（全局配置文件和映射文件）
+
+04-04 02:00:32.329 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+使用构建者模式，去创建SqlSessionFactory对象
+
+04-04 02:00:32.347 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+由SqlSessionFactory工厂去创建SqlSession（会话）
+
+04-04 02:00:32.348 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+调用sqlsession接口，去实现数据库的增删改查操作--->test.findUserListByName
+
+04-04 02:00:32.377 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+[User [id=3, username=lucas, birthday=2019-04-04 01:24:41.0, sex=男, address=null], User [id=5, username=alice, birthday=2019-04-04 01:24:45.0, sex=男, address=null]]
+
+04-04 02:00:32.377 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+释放资源
+
+04-04 02:00:32.378 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+============================
+
+04-04 02:00:32.378 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+指定全局配置文件路径
+
+04-04 02:00:32.378 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+加载资源文件（全局配置文件和映射文件）
+
+04-04 02:00:32.378 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+使用构建者模式，去创建SqlSessionFactory对象
+
+04-04 02:00:32.398 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+由SqlSessionFactory工厂去创建SqlSession（会话）
+
+04-04 02:00:32.399 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+调用sqlsession接口，去实现数据库的增删改查操作--->test.insertUser
+
+04-04 02:00:32.410 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+释放资源
+
+04-04 02:00:32.410 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+============================
+
+04-04 02:00:32.411 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+指定全局配置文件路径
+
+04-04 02:00:32.411 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+加载资源文件（全局配置文件和映射文件）
+
+04-04 02:00:32.411 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+使用构建者模式，去创建SqlSessionFactory对象
+
+04-04 02:00:32.427 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+由SqlSessionFactory工厂去创建SqlSession（会话）
+
+04-04 02:00:32.427 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+调用sqlsession接口，去实现数据库的增删改查操作---->test.findUserById
+
+04-04 02:00:32.437 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+============================
+
+04-04 02:00:32.437 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+指定全局配置文件路径
+
+04-04 02:00:32.437 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+加载资源文件（全局配置文件和映射文件）
+
+04-04 02:00:32.438 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+使用构建者模式，去创建SqlSessionFactory对象
+
+04-04 02:00:32.455 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+由SqlSessionFactory工厂去创建SqlSession（会话）
+
+04-04 02:00:32.455 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+调用sqlsession接口，去实现数据库的增删改查操作--->test.deleteUserById
+
+04-04 02:00:32.463 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+删除数据 0 行
+
+04-04 02:00:32.463 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+释放资源
+
+04-04 02:00:56.645 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+============================
+
+04-04 02:00:56.647 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+指定全局配置文件路径
+
+04-04 02:00:56.647 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+加载资源文件（全局配置文件和映射文件）
+
+04-04 02:00:56.648 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+使用构建者模式，去创建SqlSessionFactory对象
+
+04-04 02:00:56.904 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+由SqlSessionFactory工厂去创建SqlSession（会话）
+
+04-04 02:00:56.909 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+调用sqlsession接口，去实现数据库的增删改查操作--->test.deleteUserByName
+
+04-04 02:00:57.190 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+删除数据 0 行
+
+04-04 02:00:57.190 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+释放资源
+
+04-04 02:00:57.192 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+============================
+
+04-04 02:00:57.192 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+指定全局配置文件路径
+
+04-04 02:00:57.192 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+加载资源文件（全局配置文件和映射文件）
+
+04-04 02:00:57.192 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+使用构建者模式，去创建SqlSessionFactory对象
+
+04-04 02:00:57.208 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+由SqlSessionFactory工厂去创建SqlSession（会话）
+
+04-04 02:00:57.208 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+调用sqlsession接口，去实现数据库的增删改查操作--->test.findUserListByName
+
+04-04 02:00:57.235 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+[User [id=3, username=lucas, birthday=2019-04-04 01:24:41.0, sex=男, address=null], User [id=5, username=alice, birthday=2019-04-04 01:24:45.0, sex=男, address=null]]
+
+04-04 02:00:57.236 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+释放资源
+
+04-04 02:00:57.236 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+============================
+
+04-04 02:00:57.236 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+指定全局配置文件路径
+
+04-04 02:00:57.236 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+加载资源文件（全局配置文件和映射文件）
+
+04-04 02:00:57.237 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+使用构建者模式，去创建SqlSessionFactory对象
+
+04-04 02:00:57.260 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+由SqlSessionFactory工厂去创建SqlSession（会话）
+
+04-04 02:00:57.261 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+调用sqlsession接口，去实现数据库的增删改查操作--->test.insertUser
+
+04-04 02:00:57.275 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+释放资源
+
+04-04 02:00:57.275 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+============================
+
+04-04 02:00:57.275 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+指定全局配置文件路径
+
+04-04 02:00:57.276 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+加载资源文件（全局配置文件和映射文件）
+
+04-04 02:00:57.276 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+使用构建者模式，去创建SqlSessionFactory对象
+
+04-04 02:00:57.294 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+由SqlSessionFactory工厂去创建SqlSession（会话）
+
+04-04 02:00:57.294 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+调用sqlsession接口，去实现数据库的增删改查操作---->test.findUserById
+
+04-04 02:00:57.306 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+============================
+
+04-04 02:00:57.307 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+指定全局配置文件路径
+
+04-04 02:00:57.307 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+加载资源文件（全局配置文件和映射文件）
+
+04-04 02:00:57.307 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+使用构建者模式，去创建SqlSessionFactory对象
+
+04-04 02:00:57.330 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+由SqlSessionFactory工厂去创建SqlSession（会话）
+
+04-04 02:00:57.331 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+调用sqlsession接口，去实现数据库的增删改查操作--->test.deleteUserById
+
+04-04 02:00:57.339 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+删除数据 0 行
+
+04-04 02:00:57.339 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+释放资源
+
+04-04 02:01:35.991 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+============================
+
+04-04 02:01:35.994 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+指定全局配置文件路径
+
+04-04 02:01:35.994 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+加载资源文件（全局配置文件和映射文件）
+
+04-04 02:01:35.995 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+使用构建者模式，去创建SqlSessionFactory对象
+
+04-04 02:01:36.172 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+由SqlSessionFactory工厂去创建SqlSession（会话）
+
+04-04 02:01:36.175 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+调用sqlsession接口，去实现数据库的增删改查操作--->test.deleteUserByName
+
+04-04 02:01:36.409 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+删除数据 1 行
+
+04-04 02:01:36.412 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+释放资源
+
+04-04 02:01:36.413 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+============================
+
+04-04 02:01:36.413 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+指定全局配置文件路径
+
+04-04 02:01:36.413 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+加载资源文件（全局配置文件和映射文件）
+
+04-04 02:01:36.414 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+使用构建者模式，去创建SqlSessionFactory对象
+
+04-04 02:01:36.428 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+由SqlSessionFactory工厂去创建SqlSession（会话）
+
+04-04 02:01:36.428 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+调用sqlsession接口，去实现数据库的增删改查操作--->test.findUserListByName
+
+04-04 02:01:36.454 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+[User [id=3, username=lucas, birthday=2019-04-04 01:24:41.0, sex=男, address=null], User [id=5, username=alice, birthday=2019-04-04 01:24:45.0, sex=男, address=null]]
+
+04-04 02:01:36.454 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+释放资源
+
+04-04 02:01:36.454 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+============================
+
+04-04 02:01:36.455 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+指定全局配置文件路径
+
+04-04 02:01:36.455 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+加载资源文件（全局配置文件和映射文件）
+
+04-04 02:01:36.455 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+使用构建者模式，去创建SqlSessionFactory对象
+
+04-04 02:01:36.475 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+由SqlSessionFactory工厂去创建SqlSession（会话）
+
+04-04 02:01:36.476 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+调用sqlsession接口，去实现数据库的增删改查操作--->test.insertUser
+
+04-04 02:01:36.483 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+删除数据 1 行
+
+04-04 02:01:36.485 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+释放资源
+
+04-04 02:01:36.485 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+============================
+
+04-04 02:01:36.486 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+指定全局配置文件路径
+
+04-04 02:01:36.486 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+加载资源文件（全局配置文件和映射文件）
+
+04-04 02:01:36.486 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+使用构建者模式，去创建SqlSessionFactory对象
+
+04-04 02:01:36.501 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+由SqlSessionFactory工厂去创建SqlSession（会话）
+
+04-04 02:01:36.502 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+调用sqlsession接口，去实现数据库的增删改查操作---->test.findUserById
+
+04-04 02:01:36.513 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+============================
+
+04-04 02:01:36.513 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+指定全局配置文件路径
+
+04-04 02:01:36.514 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+加载资源文件（全局配置文件和映射文件）
+
+04-04 02:01:36.514 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+使用构建者模式，去创建SqlSessionFactory对象
+
+04-04 02:01:36.548 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+由SqlSessionFactory工厂去创建SqlSession（会话）
+
+04-04 02:01:36.549 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+调用sqlsession接口，去实现数据库的增删改查操作--->test.deleteUserById
+
+04-04 02:01:36.554 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+删除数据 0 行
+
+04-04 02:01:36.554 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+释放资源
+
+04-04 02:01:48.192 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+============================
+
+04-04 02:01:48.194 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+指定全局配置文件路径
+
+04-04 02:01:48.194 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+加载资源文件（全局配置文件和映射文件）
+
+04-04 02:01:48.195 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+使用构建者模式，去创建SqlSessionFactory对象
+
+04-04 02:01:48.365 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+由SqlSessionFactory工厂去创建SqlSession（会话）
+
+04-04 02:01:48.368 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+调用sqlsession接口，去实现数据库的增删改查操作--->test.deleteUserByName
+
+04-04 02:01:48.603 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+删除数据 1 行
+
+04-04 02:01:48.606 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+释放资源
+
+04-04 02:01:48.607 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+============================
+
+04-04 02:01:48.607 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+指定全局配置文件路径
+
+04-04 02:01:48.608 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+加载资源文件（全局配置文件和映射文件）
+
+04-04 02:01:48.608 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+使用构建者模式，去创建SqlSessionFactory对象
+
+04-04 02:01:48.628 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+由SqlSessionFactory工厂去创建SqlSession（会话）
+
+04-04 02:01:48.629 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+调用sqlsession接口，去实现数据库的增删改查操作--->test.findUserListByName
+
+04-04 02:01:48.657 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+[User [id=3, username=lucas, birthday=2019-04-04 01:24:41.0, sex=男, address=null], User [id=5, username=alice, birthday=2019-04-04 01:24:45.0, sex=男, address=null]]
+
+04-04 02:01:48.658 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+释放资源
+
+04-04 02:01:48.658 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+============================
+
+04-04 02:01:48.658 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+指定全局配置文件路径
+
+04-04 02:01:48.658 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+加载资源文件（全局配置文件和映射文件）
+
+04-04 02:01:48.659 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+使用构建者模式，去创建SqlSessionFactory对象
+
+04-04 02:01:48.680 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+由SqlSessionFactory工厂去创建SqlSession（会话）
+
+04-04 02:01:48.680 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+调用sqlsession接口，去实现数据库的增删改查操作--->test.insertUser
+
+04-04 02:01:48.686 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+插入数据 1 行
+
+04-04 02:01:48.688 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+释放资源
+
+04-04 02:01:48.689 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+============================
+
+04-04 02:01:48.689 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+指定全局配置文件路径
+
+04-04 02:01:48.689 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+加载资源文件（全局配置文件和映射文件）
+
+04-04 02:01:48.690 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+使用构建者模式，去创建SqlSessionFactory对象
+
+04-04 02:01:48.704 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+由SqlSessionFactory工厂去创建SqlSession（会话）
+
+04-04 02:01:48.704 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+调用sqlsession接口，去实现数据库的增删改查操作---->test.findUserById
+
+04-04 02:01:48.715 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+============================
+
+04-04 02:01:48.715 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+指定全局配置文件路径
+
+04-04 02:01:48.715 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+加载资源文件（全局配置文件和映射文件）
+
+04-04 02:01:48.715 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+使用构建者模式，去创建SqlSessionFactory对象
+
+04-04 02:01:48.732 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+由SqlSessionFactory工厂去创建SqlSession（会话）
+
+04-04 02:01:48.733 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+调用sqlsession接口，去实现数据库的增删改查操作--->test.deleteUserById
+
+04-04 02:01:48.743 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+删除数据 0 行
+
+04-04 02:01:48.743 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+释放资源
+
+04-04 02:03:15.595 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+============================
+
+04-04 02:03:15.597 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+指定全局配置文件路径
+
+04-04 02:03:15.597 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+加载资源文件（全局配置文件和映射文件）
+
+04-04 02:03:15.599 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+使用构建者模式，去创建SqlSessionFactory对象
+
+04-04 02:03:15.768 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+由SqlSessionFactory工厂去创建SqlSession（会话）
+
+04-04 02:03:15.771 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+调用sqlsession接口，去实现数据库的增删改查操作--->test.deleteUserByName
+
+04-04 02:03:16.037 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+删除数据 1 行
+
+04-04 02:03:16.606 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+释放资源
+
+04-04 02:03:16.611 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+============================
+
+04-04 02:03:16.613 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+指定全局配置文件路径
+
+04-04 02:03:16.613 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+加载资源文件（全局配置文件和映射文件）
+
+04-04 02:03:16.615 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+使用构建者模式，去创建SqlSessionFactory对象
+
+04-04 02:03:16.676 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+由SqlSessionFactory工厂去创建SqlSession（会话）
+
+04-04 02:03:16.676 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+调用sqlsession接口，去实现数据库的增删改查操作--->test.findUserListByName
+
+04-04 02:03:16.714 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+[User [id=3, username=lucas, birthday=2019-04-04 01:24:41.0, sex=男, address=null], User [id=5, username=alice, birthday=2019-04-04 01:24:45.0, sex=男, address=null]]
+
+04-04 02:03:16.715 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+释放资源
+
+04-04 02:03:16.715 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+============================
+
+04-04 02:03:16.715 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+指定全局配置文件路径
+
+04-04 02:03:16.715 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+加载资源文件（全局配置文件和映射文件）
+
+04-04 02:03:16.716 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+使用构建者模式，去创建SqlSessionFactory对象
+
+04-04 02:03:16.741 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+由SqlSessionFactory工厂去创建SqlSession（会话）
+
+04-04 02:03:16.742 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+调用sqlsession接口，去实现数据库的增删改查操作--->test.insertUser
+
+04-04 02:03:16.750 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+插入数据 1 行
+
+04-04 02:03:16.756 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+释放资源
+
+04-04 02:03:16.756 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+============================
+
+04-04 02:03:16.757 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+指定全局配置文件路径
+
+04-04 02:03:16.757 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+加载资源文件（全局配置文件和映射文件）
+
+04-04 02:03:16.757 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+使用构建者模式，去创建SqlSessionFactory对象
+
+04-04 02:03:16.774 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+由SqlSessionFactory工厂去创建SqlSession（会话）
+
+04-04 02:03:16.776 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+调用sqlsession接口，去实现数据库的增删改查操作---->test.findUserById
+
+04-04 02:03:16.788 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+============================
+
+04-04 02:03:16.789 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+指定全局配置文件路径
+
+04-04 02:03:16.789 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+加载资源文件（全局配置文件和映射文件）
+
+04-04 02:03:16.789 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+使用构建者模式，去创建SqlSessionFactory对象
+
+04-04 02:03:16.810 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+由SqlSessionFactory工厂去创建SqlSession（会话）
+
+04-04 02:03:16.810 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+调用sqlsession接口，去实现数据库的增删改查操作--->test.deleteUserById
+
+04-04 02:03:16.821 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+删除数据 0 行
+
+04-04 02:03:16.822 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+释放资源
+
+04-04 02:04:56.464 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+============================
+
+04-04 02:04:56.466 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+指定全局配置文件路径
+
+04-04 02:04:56.466 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+加载资源文件（全局配置文件和映射文件）
+
+04-04 02:04:56.468 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+使用构建者模式，去创建SqlSessionFactory对象
+
+04-04 02:04:56.630 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+由SqlSessionFactory工厂去创建SqlSession（会话）
+
+04-04 02:04:56.634 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+调用sqlsession接口，去实现数据库的增删改查操作--->test.deleteUserByName
+
+04-04 02:04:56.897 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+删除数据 1 行
+
+04-04 02:04:56.906 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+释放资源
+
+04-04 02:04:56.907 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+============================
+
+04-04 02:04:56.907 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+指定全局配置文件路径
+
+04-04 02:04:56.907 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+加载资源文件（全局配置文件和映射文件）
+
+04-04 02:04:56.908 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+使用构建者模式，去创建SqlSessionFactory对象
+
+04-04 02:04:56.923 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+由SqlSessionFactory工厂去创建SqlSession（会话）
+
+04-04 02:04:56.924 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+调用sqlsession接口，去实现数据库的增删改查操作--->test.findUserListByName
+
+04-04 02:04:56.954 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+[User [id=3, username=lucas, birthday=2019-04-04 01:24:41.0, sex=男, address=null], User [id=5, username=alice, birthday=2019-04-04 01:24:45.0, sex=男, address=null]]
+
+04-04 02:04:56.955 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+释放资源
+
+04-04 02:04:56.955 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+============================
+
+04-04 02:04:56.956 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+指定全局配置文件路径
+
+04-04 02:04:56.956 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+加载资源文件（全局配置文件和映射文件）
+
+04-04 02:04:56.956 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+使用构建者模式，去创建SqlSessionFactory对象
+
+04-04 02:04:56.983 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+由SqlSessionFactory工厂去创建SqlSession（会话）
+
+04-04 02:04:56.984 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+调用sqlsession接口，去实现数据库的增删改查操作--->test.insertUser
+
+04-04 02:04:56.991 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+插入数据 1 行
+
+04-04 02:04:56.997 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+释放资源
+
+04-04 02:04:56.998 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+============================
+
+04-04 02:04:56.999 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+指定全局配置文件路径
+
+04-04 02:04:56.999 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+加载资源文件（全局配置文件和映射文件）
+
+04-04 02:04:57.000 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+使用构建者模式，去创建SqlSessionFactory对象
+
+04-04 02:04:57.025 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+由SqlSessionFactory工厂去创建SqlSession（会话）
+
+04-04 02:04:57.025 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+调用sqlsession接口，去实现数据库的增删改查操作---->test.findUserById
+
+04-04 02:04:57.034 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+释放资源
+
+04-04 02:04:57.035 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+============================
+
+04-04 02:04:57.035 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+指定全局配置文件路径
+
+04-04 02:04:57.035 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+加载资源文件（全局配置文件和映射文件）
+
+04-04 02:04:57.036 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+使用构建者模式，去创建SqlSessionFactory对象
+
+04-04 02:04:57.063 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+由SqlSessionFactory工厂去创建SqlSession（会话）
+
+04-04 02:04:57.063 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+调用sqlsession接口，去实现数据库的增删改查操作--->test.deleteUserById
+
+04-04 02:04:57.073 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+删除数据 0 行
+
+04-04 02:04:57.073 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+释放资源
+
+04-04 02:06:10.084 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+============================
+
+04-04 02:06:10.086 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+指定全局配置文件路径
+
+04-04 02:06:10.087 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+加载资源文件（全局配置文件和映射文件）
+
+04-04 02:06:10.088 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+使用构建者模式，去创建SqlSessionFactory对象
+
+04-04 02:06:10.253 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+由SqlSessionFactory工厂去创建SqlSession（会话）
+
+04-04 02:06:10.258 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+调用sqlsession接口，去实现数据库的增删改查操作--->test.deleteUserByName
+
+04-04 02:06:10.495 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+删除数据 1 行
+
+04-04 02:06:10.501 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+释放资源
+
+04-04 02:06:10.502 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+============================
+
+04-04 02:06:10.502 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+指定全局配置文件路径
+
+04-04 02:06:10.502 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+加载资源文件（全局配置文件和映射文件）
+
+04-04 02:06:10.502 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+使用构建者模式，去创建SqlSessionFactory对象
+
+04-04 02:06:10.516 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+由SqlSessionFactory工厂去创建SqlSession（会话）
+
+04-04 02:06:10.516 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+调用sqlsession接口，去实现数据库的增删改查操作--->test.findUserListByName
+
+04-04 02:06:10.541 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+[User [id=3, username=lucas, birthday=2019-04-04 01:24:41.0, sex=男, address=null], User [id=5, username=alice, birthday=2019-04-04 01:24:45.0, sex=男, address=null]]
+
+04-04 02:06:10.542 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+释放资源
+
+04-04 02:06:10.542 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+============================
+
+04-04 02:06:10.542 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+指定全局配置文件路径
+
+04-04 02:06:10.542 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+加载资源文件（全局配置文件和映射文件）
+
+04-04 02:06:10.543 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+使用构建者模式，去创建SqlSessionFactory对象
+
+04-04 02:06:10.562 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+由SqlSessionFactory工厂去创建SqlSession（会话）
+
+04-04 02:06:10.563 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+调用sqlsession接口，去实现数据库的增删改查操作--->test.insertUser
+
+04-04 02:06:10.570 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+插入数据 1 行
+
+04-04 02:06:10.576 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+释放资源
+
+04-04 02:06:10.576 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+============================
+
+04-04 02:06:10.577 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+指定全局配置文件路径
+
+04-04 02:06:10.577 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+加载资源文件（全局配置文件和映射文件）
+
+04-04 02:06:10.577 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+使用构建者模式，去创建SqlSessionFactory对象
+
+04-04 02:06:10.593 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+由SqlSessionFactory工厂去创建SqlSession（会话）
+
+04-04 02:06:10.593 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+调用sqlsession接口，去实现数据库的增删改查操作---->test.findUserById
+
+04-04 02:06:10.600 [main] ERROR com.lucas.javase.mybatis.demo.MybatisDemo
+java.lang.ClassCastException: com.lucas.javase.mybatis.demo.po.User cannot be cast to com.lucas.javase.mybatis.phase01.po.User
+
+04-04 02:06:10.600 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+释放资源
+
+04-04 02:06:10.601 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+============================
+
+04-04 02:06:10.601 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+指定全局配置文件路径
+
+04-04 02:06:10.601 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+加载资源文件（全局配置文件和映射文件）
+
+04-04 02:06:10.602 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+使用构建者模式，去创建SqlSessionFactory对象
+
+04-04 02:06:10.630 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+由SqlSessionFactory工厂去创建SqlSession（会话）
+
+04-04 02:06:10.630 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+调用sqlsession接口，去实现数据库的增删改查操作--->test.deleteUserById
+
+04-04 02:06:10.637 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+删除数据 0 行
+
+04-04 02:06:10.637 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+释放资源
+
+04-04 02:08:08.529 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+============================
+
+04-04 02:08:08.532 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+指定全局配置文件路径
+
+04-04 02:08:08.532 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+加载资源文件（全局配置文件和映射文件）
+
+04-04 02:08:08.533 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+使用构建者模式，去创建SqlSessionFactory对象
+
+04-04 02:08:08.706 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+由SqlSessionFactory工厂去创建SqlSession（会话）
+
+04-04 02:08:08.714 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+调用sqlsession接口，去实现数据库的增删改查操作--->test.deleteUserByName
+
+04-04 02:08:08.997 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+删除数据 1 行
+
+04-04 02:08:09.002 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+释放资源
+
+04-04 02:08:09.003 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+============================
+
+04-04 02:08:09.003 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+指定全局配置文件路径
+
+04-04 02:08:09.003 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+加载资源文件（全局配置文件和映射文件）
+
+04-04 02:08:09.003 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+使用构建者模式，去创建SqlSessionFactory对象
+
+04-04 02:08:09.020 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+由SqlSessionFactory工厂去创建SqlSession（会话）
+
+04-04 02:08:09.020 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+调用sqlsession接口，去实现数据库的增删改查操作--->test.findUserListByName
+
+04-04 02:08:09.051 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+[User [id=3, username=lucas, birthday=2019-04-04 01:24:41.0, sex=男, address=null], User [id=5, username=alice, birthday=2019-04-04 01:24:45.0, sex=男, address=null]]
+
+04-04 02:08:09.051 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+释放资源
+
+04-04 02:08:09.052 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+============================
+
+04-04 02:08:09.052 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+指定全局配置文件路径
+
+04-04 02:08:09.052 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+加载资源文件（全局配置文件和映射文件）
+
+04-04 02:08:09.052 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+使用构建者模式，去创建SqlSessionFactory对象
+
+04-04 02:08:09.080 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+由SqlSessionFactory工厂去创建SqlSession（会话）
+
+04-04 02:08:09.081 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+调用sqlsession接口，去实现数据库的增删改查操作--->test.insertUser
+
+04-04 02:08:09.089 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+插入数据 1 行
+
+04-04 02:08:09.092 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+释放资源
+
+04-04 02:08:09.093 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+============================
+
+04-04 02:08:09.093 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+指定全局配置文件路径
+
+04-04 02:08:09.093 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+加载资源文件（全局配置文件和映射文件）
+
+04-04 02:08:09.094 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+使用构建者模式，去创建SqlSessionFactory对象
+
+04-04 02:08:09.112 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+由SqlSessionFactory工厂去创建SqlSession（会话）
+
+04-04 02:08:09.113 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+调用sqlsession接口，去实现数据库的增删改查操作---->test.findUserById
+
+04-04 02:08:09.123 [main] ERROR com.lucas.javase.mybatis.demo.MybatisDemo
+java.lang.ClassCastException: com.lucas.javase.mybatis.demo.po.User cannot be cast to com.lucas.javase.mybatis.phase01.po.User
+
+04-04 02:08:09.123 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+释放资源
+
+04-04 02:08:09.124 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+============================
+
+04-04 02:08:09.124 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+指定全局配置文件路径
+
+04-04 02:08:09.124 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+加载资源文件（全局配置文件和映射文件）
+
+04-04 02:08:09.125 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+使用构建者模式，去创建SqlSessionFactory对象
+
+04-04 02:08:09.140 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+由SqlSessionFactory工厂去创建SqlSession（会话）
+
+04-04 02:08:09.140 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+调用sqlsession接口，去实现数据库的增删改查操作--->test.deleteUserById
+
+04-04 02:08:09.147 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+删除数据 0 行
+
+04-04 02:08:09.147 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+释放资源
+
+04-04 02:11:40.184 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+============================
+
+04-04 02:11:40.186 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+指定全局配置文件路径
+
+04-04 02:11:40.186 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+加载资源文件（全局配置文件和映射文件）
+
+04-04 02:11:40.188 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+使用构建者模式，去创建SqlSessionFactory对象
+
+04-04 02:11:40.369 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+由SqlSessionFactory工厂去创建SqlSession（会话）
+
+04-04 02:11:40.372 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+调用sqlsession接口，去实现数据库的增删改查操作---->test.findUserById
+
+04-04 02:11:40.615 [main] ERROR com.lucas.javase.mybatis.demo.MybatisDemo
+java.lang.ClassCastException: com.lucas.javase.mybatis.demo.po.User cannot be cast to com.lucas.javase.mybatis.phase01.po.User
+
+04-04 02:11:40.615 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+释放资源
+
+04-04 02:12:57.398 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+============================
+
+04-04 02:12:57.400 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+指定全局配置文件路径
+
+04-04 02:12:57.400 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+加载资源文件（全局配置文件和映射文件）
+
+04-04 02:12:57.402 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+使用构建者模式，去创建SqlSessionFactory对象
+
+04-04 02:12:57.661 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+由SqlSessionFactory工厂去创建SqlSession（会话）
+
+04-04 02:12:57.665 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+调用sqlsession接口，去实现数据库的增删改查操作---->test.findUserById
+
+04-04 02:12:57.911 [main] ERROR com.lucas.javase.mybatis.demo.MybatisDemo
+java.lang.ClassCastException: com.lucas.javase.mybatis.demo.po.User cannot be cast to com.lucas.javase.mybatis.phase01.po.User
+
+04-04 02:12:57.911 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+释放资源
+
+04-04 02:14:59.973 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+============================
+
+04-04 02:14:59.975 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+指定全局配置文件路径
+
+04-04 02:14:59.976 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+加载资源文件（全局配置文件和映射文件）
+
+04-04 02:14:59.977 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+使用构建者模式，去创建SqlSessionFactory对象
+
+04-04 02:15:00.163 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+由SqlSessionFactory工厂去创建SqlSession（会话）
+
+04-04 02:15:00.167 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+调用sqlsession接口，去实现数据库的增删改查操作--->test.deleteUserByName
+
+04-04 02:15:00.397 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+删除数据 1 行
+
+04-04 02:15:00.402 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+释放资源
+
+04-04 02:15:00.404 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+============================
+
+04-04 02:15:00.404 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+指定全局配置文件路径
+
+04-04 02:15:00.404 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+加载资源文件（全局配置文件和映射文件）
+
+04-04 02:15:00.404 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+使用构建者模式，去创建SqlSessionFactory对象
+
+04-04 02:15:00.425 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+由SqlSessionFactory工厂去创建SqlSession（会话）
+
+04-04 02:15:00.425 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+调用sqlsession接口，去实现数据库的增删改查操作--->test.findUserListByName
+
+04-04 02:15:00.456 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+[User [id=3, username=lucas, birthday=2019-04-04 01:24:41.0, sex=男, address=null], User [id=5, username=alice, birthday=2019-04-04 01:24:45.0, sex=男, address=null]]
+
+04-04 02:15:00.456 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+释放资源
+
+04-04 02:15:00.457 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+============================
+
+04-04 02:15:00.457 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+指定全局配置文件路径
+
+04-04 02:15:00.457 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+加载资源文件（全局配置文件和映射文件）
+
+04-04 02:15:00.457 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+使用构建者模式，去创建SqlSessionFactory对象
+
+04-04 02:15:00.476 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+由SqlSessionFactory工厂去创建SqlSession（会话）
+
+04-04 02:15:00.476 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+调用sqlsession接口，去实现数据库的增删改查操作--->test.insertUser
+
+04-04 02:15:00.484 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+插入数据 1 行
+
+04-04 02:15:00.486 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+释放资源
+
+04-04 02:15:00.487 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+============================
+
+04-04 02:15:00.487 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+指定全局配置文件路径
+
+04-04 02:15:00.487 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+加载资源文件（全局配置文件和映射文件）
+
+04-04 02:15:00.487 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+使用构建者模式，去创建SqlSessionFactory对象
+
+04-04 02:15:00.503 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+由SqlSessionFactory工厂去创建SqlSession（会话）
+
+04-04 02:15:00.503 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+调用sqlsession接口，去实现数据库的增删改查操作---->test.findUserById
+
+04-04 02:15:00.512 [main] ERROR com.lucas.javase.mybatis.demo.MybatisDemo
+java.lang.ClassCastException: com.lucas.javase.mybatis.demo.po.User cannot be cast to com.lucas.javase.mybatis.phase01.po.User
+
+04-04 02:15:00.513 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+释放资源
+
+04-04 02:15:00.513 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+============================
+
+04-04 02:15:00.513 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+指定全局配置文件路径
+
+04-04 02:15:00.513 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+加载资源文件（全局配置文件和映射文件）
+
+04-04 02:15:00.514 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+使用构建者模式，去创建SqlSessionFactory对象
+
+04-04 02:15:00.529 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+由SqlSessionFactory工厂去创建SqlSession（会话）
+
+04-04 02:15:00.529 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+调用sqlsession接口，去实现数据库的增删改查操作--->test.deleteUserById
+
+04-04 02:15:00.537 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+删除数据 0 行
+
+04-04 02:15:00.537 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+释放资源
+
+04-04 02:15:14.902 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+============================
+
+04-04 02:15:14.904 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+指定全局配置文件路径
+
+04-04 02:15:14.905 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+加载资源文件（全局配置文件和映射文件）
+
+04-04 02:15:14.906 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+使用构建者模式，去创建SqlSessionFactory对象
+
+04-04 02:15:15.077 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+由SqlSessionFactory工厂去创建SqlSession（会话）
+
+04-04 02:15:15.080 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+调用sqlsession接口，去实现数据库的增删改查操作--->test.deleteUserByName
+
+04-04 02:15:15.313 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+删除数据 1 行
+
+04-04 02:15:15.319 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+释放资源
+
+04-04 02:15:15.322 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+============================
+
+04-04 02:15:15.322 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+指定全局配置文件路径
+
+04-04 02:15:15.322 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+加载资源文件（全局配置文件和映射文件）
+
+04-04 02:15:15.322 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+使用构建者模式，去创建SqlSessionFactory对象
+
+04-04 02:15:15.343 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+由SqlSessionFactory工厂去创建SqlSession（会话）
+
+04-04 02:15:15.344 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+调用sqlsession接口，去实现数据库的增删改查操作--->test.findUserListByName
+
+04-04 02:15:15.375 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+[User [id=3, username=lucas, birthday=2019-04-04 01:24:41.0, sex=男, address=null], User [id=5, username=alice, birthday=2019-04-04 01:24:45.0, sex=男, address=null]]
+
+04-04 02:15:15.375 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+释放资源
+
+04-04 02:15:15.376 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+============================
+
+04-04 02:15:15.376 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+指定全局配置文件路径
+
+04-04 02:15:15.376 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+加载资源文件（全局配置文件和映射文件）
+
+04-04 02:15:15.377 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+使用构建者模式，去创建SqlSessionFactory对象
+
+04-04 02:15:15.398 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+由SqlSessionFactory工厂去创建SqlSession（会话）
+
+04-04 02:15:15.399 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+调用sqlsession接口，去实现数据库的增删改查操作--->test.insertUser
+
+04-04 02:15:15.408 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+插入数据 1 行
+
+04-04 02:15:15.413 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+释放资源
+
+04-04 02:15:15.413 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+============================
+
+04-04 02:15:15.414 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+指定全局配置文件路径
+
+04-04 02:15:15.414 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+加载资源文件（全局配置文件和映射文件）
+
+04-04 02:15:15.414 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+使用构建者模式，去创建SqlSessionFactory对象
+
+04-04 02:15:15.430 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+由SqlSessionFactory工厂去创建SqlSession（会话）
+
+04-04 02:15:15.430 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+调用sqlsession接口，去实现数据库的增删改查操作---->test.findUserById2
+
+04-04 02:15:15.441 [main] ERROR com.lucas.javase.mybatis.demo.MybatisDemo
+java.lang.ClassCastException: com.lucas.javase.mybatis.demo.po.User cannot be cast to com.lucas.javase.mybatis.phase01.po.User
+
+04-04 02:15:15.441 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+释放资源
+
+04-04 02:15:15.442 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+============================
+
+04-04 02:15:15.442 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+指定全局配置文件路径
+
+04-04 02:15:15.442 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+加载资源文件（全局配置文件和映射文件）
+
+04-04 02:15:15.442 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+使用构建者模式，去创建SqlSessionFactory对象
+
+04-04 02:15:15.458 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+由SqlSessionFactory工厂去创建SqlSession（会话）
+
+04-04 02:15:15.458 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+调用sqlsession接口，去实现数据库的增删改查操作--->test.deleteUserById
+
+04-04 02:15:15.465 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+删除数据 0 行
+
+04-04 02:15:15.466 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+释放资源
+
+04-04 02:16:56.432 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+============================
+
+04-04 02:16:56.434 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+指定全局配置文件路径
+
+04-04 02:16:56.435 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+加载资源文件（全局配置文件和映射文件）
+
+04-04 02:16:56.436 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+使用构建者模式，去创建SqlSessionFactory对象
+
+04-04 02:16:56.659 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+由SqlSessionFactory工厂去创建SqlSession（会话）
+
+04-04 02:16:56.664 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+调用sqlsession接口，去实现数据库的增删改查操作--->test.deleteUserByName
+
+04-04 02:16:56.928 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+删除数据 1 行
+
+04-04 02:16:56.934 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+释放资源
+
+04-04 02:16:56.936 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+============================
+
+04-04 02:16:56.936 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+指定全局配置文件路径
+
+04-04 02:16:56.936 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+加载资源文件（全局配置文件和映射文件）
+
+04-04 02:16:56.936 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+使用构建者模式，去创建SqlSessionFactory对象
+
+04-04 02:16:56.949 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+由SqlSessionFactory工厂去创建SqlSession（会话）
+
+04-04 02:16:56.950 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+调用sqlsession接口，去实现数据库的增删改查操作--->test.findUserListByName
+
+04-04 02:16:56.975 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+[User [id=3, username=lucas, birthday=2019-04-04 01:24:41.0, sex=男, address=null], User [id=5, username=alice, birthday=2019-04-04 01:24:45.0, sex=男, address=null]]
+
+04-04 02:16:56.975 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+释放资源
+
+04-04 02:16:56.976 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+============================
+
+04-04 02:16:56.976 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+指定全局配置文件路径
+
+04-04 02:16:56.976 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+加载资源文件（全局配置文件和映射文件）
+
+04-04 02:16:56.976 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+使用构建者模式，去创建SqlSessionFactory对象
+
+04-04 02:16:56.997 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+由SqlSessionFactory工厂去创建SqlSession（会话）
+
+04-04 02:16:56.998 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+调用sqlsession接口，去实现数据库的增删改查操作--->test.insertUser
+
+04-04 02:16:57.005 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+插入数据 1 行
+
+04-04 02:16:57.008 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+释放资源
+
+04-04 02:16:57.009 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+============================
+
+04-04 02:16:57.009 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+指定全局配置文件路径
+
+04-04 02:16:57.009 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+加载资源文件（全局配置文件和映射文件）
+
+04-04 02:16:57.010 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+使用构建者模式，去创建SqlSessionFactory对象
+
+04-04 02:16:57.023 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+由SqlSessionFactory工厂去创建SqlSession（会话）
+
+04-04 02:16:57.023 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+调用sqlsession接口，去实现数据库的增删改查操作---->test.findUserById2
+
+04-04 02:16:57.030 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+释放资源
+
+04-04 02:16:57.031 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+============================
+
+04-04 02:16:57.031 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+指定全局配置文件路径
+
+04-04 02:16:57.031 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+加载资源文件（全局配置文件和映射文件）
+
+04-04 02:16:57.032 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+使用构建者模式，去创建SqlSessionFactory对象
+
+04-04 02:16:57.059 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+由SqlSessionFactory工厂去创建SqlSession（会话）
+
+04-04 02:16:57.060 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+调用sqlsession接口，去实现数据库的增删改查操作--->test.deleteUserById
+
+04-04 02:16:57.070 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+删除数据 0 行
+
+04-04 02:16:57.070 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+释放资源
+
+04-04 02:18:45.524 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+============================
+
+04-04 02:18:45.527 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+指定全局配置文件路径
+
+04-04 02:18:45.527 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+加载资源文件（全局配置文件和映射文件）
+
+04-04 02:18:45.529 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+使用构建者模式，去创建SqlSessionFactory对象
+
+04-04 02:18:45.761 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+由SqlSessionFactory工厂去创建SqlSession（会话）
+
+04-04 02:18:45.765 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+调用sqlsession接口，去实现数据库的增删改查操作--->test.deleteUserByName
+
+04-04 02:18:46.030 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+删除数据 1 行
+
+04-04 02:18:46.034 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+释放资源
+
+04-04 02:18:46.035 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+============================
+
+04-04 02:18:46.035 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+指定全局配置文件路径
+
+04-04 02:18:46.036 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+加载资源文件（全局配置文件和映射文件）
+
+04-04 02:18:46.036 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+使用构建者模式，去创建SqlSessionFactory对象
+
+04-04 02:18:46.050 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+由SqlSessionFactory工厂去创建SqlSession（会话）
+
+04-04 02:18:46.050 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+调用sqlsession接口，去实现数据库的增删改查操作--->test.findUserListByName
+
+04-04 02:18:46.076 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+[User [id=3, username=lucas, birthday=2019-04-04 01:24:41.0, sex=男, address=null], User [id=5, username=alice, birthday=2019-04-04 01:24:45.0, sex=男, address=null]]
+
+04-04 02:18:46.076 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+释放资源
+
+04-04 02:18:46.077 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+============================
+
+04-04 02:18:46.077 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+指定全局配置文件路径
+
+04-04 02:18:46.077 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+加载资源文件（全局配置文件和映射文件）
+
+04-04 02:18:46.077 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+使用构建者模式，去创建SqlSessionFactory对象
+
+04-04 02:18:46.099 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+由SqlSessionFactory工厂去创建SqlSession（会话）
+
+04-04 02:18:46.099 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+调用sqlsession接口，去实现数据库的增删改查操作--->test.insertUser
+
+04-04 02:18:46.106 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+插入数据 1 行
+
+04-04 02:18:46.110 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+释放资源
+
+04-04 02:18:46.110 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+============================
+
+04-04 02:18:46.110 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+指定全局配置文件路径
+
+04-04 02:18:46.111 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+加载资源文件（全局配置文件和映射文件）
+
+04-04 02:18:46.111 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+使用构建者模式，去创建SqlSessionFactory对象
+
+04-04 02:18:46.125 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+由SqlSessionFactory工厂去创建SqlSession（会话）
+
+04-04 02:18:46.125 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+调用sqlsession接口，去实现数据库的增删改查操作---->test.findUserById
+
+04-04 02:18:46.131 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+User [id=2, username=老郭, birthday=2019-04-04 01:24:37.0, sex=男, address=致真大厦]
+
+04-04 02:18:46.131 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+释放资源
+
+04-04 02:18:46.132 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+============================
+
+04-04 02:18:46.132 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+指定全局配置文件路径
+
+04-04 02:18:46.132 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+加载资源文件（全局配置文件和映射文件）
+
+04-04 02:18:46.133 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+使用构建者模式，去创建SqlSessionFactory对象
+
+04-04 02:18:46.170 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+由SqlSessionFactory工厂去创建SqlSession（会话）
+
+04-04 02:18:46.170 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+调用sqlsession接口，去实现数据库的增删改查操作--->test.deleteUserById
+
+04-04 02:18:46.179 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+删除数据 0 行
+
+04-04 02:18:46.179 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+释放资源
+

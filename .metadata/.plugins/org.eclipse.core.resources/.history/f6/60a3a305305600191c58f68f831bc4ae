@@ -1,0 +1,7 @@
+package com.lucas.javase.mybatis.phase01.dao;
+
+
+public interface UserDao {
+
+	User findUserById(int id);
+}

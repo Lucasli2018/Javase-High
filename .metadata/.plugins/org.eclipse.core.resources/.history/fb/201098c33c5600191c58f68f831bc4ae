@@ -1,0 +1,150 @@
+package com.lucas.javase.mybatis.demo;
+
+
+import java.io.InputStream;
+import java.util.List;
+
+import org.apache.commons.logging.Log;
+import org.apache.commons.logging.LogFactory;
+import org.apache.ibatis.io.Resources;
+import org.apache.ibatis.session.SqlSession;
+import org.apache.ibatis.session.SqlSessionFactory;
+import org.apache.ibatis.session.SqlSessionFactoryBuilder;
+import org.junit.After;
+import org.junit.Before;
+import org.junit.Test;
+
+import com.lucas.javase.mybatis.demo.po.User;
+
+
+
+/**
+ * 入门案例演示
+ * 
+ * @author think
+ *
+ */
+public class MybatisDemo {
+
+	// 抽取代码，方便重用
+	private SqlSessionFactory sqlSessionFactory;
+	static final Log log=LogFactory.getLog(MybatisDemo.class);
+	/**
+	 * @Before注解的方法会在@Test注解的方法之前执行
+	 * 
+	 * @throws Exception
+	 */
+	@Before
+	public void init() throws Exception {
+		log.info("============================");
+		// 指定全局配置文件路径
+		log.info("指定全局配置文件路径");
+		String resource = "demo/SqlMapConfig.xml";
+		// 加载资源文件（全局配置文件和映射文件）
+		log.info("加载资源文件（全局配置文件和映射文件）");
+		InputStream inputStream = Resources.getResourceAsStream(resource);
+		// 使用构建者模式，去创建SqlSessionFactory对象
+		log.info("使用构建者模式，去创建SqlSessionFactory对象");
+		sqlSessionFactory = new SqlSessionFactoryBuilder().build(inputStream);
+
+		// 设计模式分三类23种：创建型（5）、结构型（7）、行为型（11）
+	}
+
+	@Test
+	public void testFindUserById() {
+		// 由SqlSessionFactory工厂去创建SqlSession（会话）
+		log.info("由SqlSessionFactory工厂去创建SqlSession（会话）");
+		SqlSession sqlSession = sqlSessionFactory.openSession();
+		User user=null;
+		// 调用sqlsession接口，去实现数据库的增删改查操作
+		// 参数1：statement的id值（可以不加namespace）：namespace+"."+statementID
+		// 参数2：唯一入参
+		log.info("调用sqlsession接口，去实现数据库的增删改查操作---->test.findUserById2");
+		try{
+			user = sqlSession.selectOne("test.findUserById2", 2);
+		}catch(Exception e){
+			log.error(e.toString());
+		}finally{
+			System.out.println(user);
+			// 释放资源
+			log.info("释放资源");
+			sqlSession.close();
+		}
+	}
+
+	@Test
+	public void testFindUserListByName() {
+		// 由SqlSessionFactory工厂去创建SqlSession（会话）
+		log.info("由SqlSessionFactory工厂去创建SqlSession（会话）");
+		SqlSession sqlSession = sqlSessionFactory.openSession();
+
+		// 调用sqlsession接口，去实现数据库的增删改查操作
+		log.info("调用sqlsession接口，去实现数据库的增删改查操作--->test.findUserListByName");
+		List<User> list = sqlSession.selectList("test.findUserListByName", "a");
+
+		log.info(list);
+		// 释放资源
+		log.info("释放资源");
+		sqlSession.close();
+	}
+
+	@Test
+	public void testInsertUser() {
+		// 由SqlSessionFactory工厂去创建SqlSession（会话）
+		log.info("由SqlSessionFactory工厂去创建SqlSession（会话）");
+		SqlSession sqlSession = sqlSessionFactory.openSession();
+
+		User user = new User();
+		user.setUsername("SNH-lucas");
+		user.setSex("男");
+		user.setAddress("上海");
+
+		// 调用sqlsession接口，去实现数据库的增删改查操作
+		log.info("调用sqlsession接口，去实现数据库的增删改查操作--->test.insertUser");
+		int r=sqlSession.insert("test.insertUser", user);
+		log.info("插入数据 "+r +" 行");
+		sqlSession.commit();
+
+		// 释放资源
+		log.info("释放资源");
+		sqlSession.close();
+	}
+	@Test
+	public void testDeleteUser() {
+		// 由SqlSessionFactory工厂去创建SqlSession（会话）
+		log.info("由SqlSessionFactory工厂去创建SqlSession（会话）");
+		SqlSession sqlSession = sqlSessionFactory.openSession();
+
+		// 调用sqlsession接口，去实现数据库的增删改查操作
+		log.info("调用sqlsession接口，去实现数据库的增删改查操作--->test.deleteUserById");
+		int r=sqlSession.delete("test.deleteUserById", 1);
+
+		log.info("删除数据 "+r +" 行");
+
+		// 释放资源
+		log.info("释放资源");
+		sqlSession.close();
+	}
+	@Test
+	public void testDeleteUser2() {
+		// 由SqlSessionFactory工厂去创建SqlSession（会话）
+		log.info("由SqlSessionFactory工厂去创建SqlSession（会话）");
+		SqlSession sqlSession = sqlSessionFactory.openSession();
+
+		// 调用sqlsession接口，去实现数据库的增删改查操作
+		log.info("调用sqlsession接口，去实现数据库的增删改查操作--->test.deleteUserByName");
+		int r=sqlSession.delete("test.deleteUserByName", "SNH-lucas");
+
+		log.info("删除数据 "+r +" 行");
+		sqlSession.commit();
+
+		// 释放资源
+		log.info("释放资源");
+		sqlSession.close();
+	}
+	
+	@After
+	public void tearDown(){
+		
+	}
+}

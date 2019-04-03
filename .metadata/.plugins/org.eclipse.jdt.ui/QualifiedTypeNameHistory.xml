@@ -6,10 +6,7 @@
 <fullyQualifiedTypeName name="com.lucas.javase.oop.basic.abstractClass.Shape"/>
 <fullyQualifiedTypeName name="com.lucas.javase.oop.basic.abstractClass.Rect"/>
 <fullyQualifiedTypeName name="com.lucas.javase.oop.basic.abstractClass.Circle"/>
-<fullyQualifiedTypeName name="java.util.ArrayList"/>
 <fullyQualifiedTypeName name="java.awt.List"/>
-<fullyQualifiedTypeName name="java.util.List"/>
-<fullyQualifiedTypeName name="java.util.Collection"/>
 <fullyQualifiedTypeName name="com.lucas.javase.oop.basic.scope.Hello"/>
 <fullyQualifiedTypeName name="java.lang.String"/>
 <fullyQualifiedTypeName name="java.nio.charset.StandardCharsets"/>
@@ -17,4 +14,14 @@
 <fullyQualifiedTypeName name="java.beans.BeanInfo"/>
 <fullyQualifiedTypeName name="java.beans.PropertyDescriptor"/>
 <fullyQualifiedTypeName name="java.lang.reflect.Method"/>
+<fullyQualifiedTypeName name="java.util.List"/>
+<fullyQualifiedTypeName name="java.util.ArrayList"/>
+<fullyQualifiedTypeName name="java.util.Collection"/>
+<fullyQualifiedTypeName name="java.lang.IllegalArgumentException"/>
+<fullyQualifiedTypeName name="java.lang.NullPointerException"/>
+<fullyQualifiedTypeName name="java.lang.Exception"/>
+<fullyQualifiedTypeName name="java.util.logging.Logger"/>
+<fullyQualifiedTypeName name="java.util.logging.Level"/>
+<fullyQualifiedTypeName name="org.apache.commons.logging.LogFactory"/>
+<fullyQualifiedTypeName name="org.apache.commons.logging.Log"/>
 </qualifiedTypeNameHistroy>
