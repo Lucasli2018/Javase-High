@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.kkb.mybatis.mapper.xml.UserMapper">
+	<!-- 开启com.kkb.mybatis.mapper.UserMapper命名空间下的二级缓存 -->
+	<cache></cache>
+
+	<!-- 作为延迟加载案例的从表信息查询语句 -->
+	<select id="findUserById" parameterType="java.lang.Integer"
+		resultType="user">
+		SELECT * FROM user WHERE id = #{id}
+	</select>
+
+	<!-- 添加用户 -->
+	<insert id="insertUser" parameterType="user">
+		insert into user(username,birthday,sex,address)
+		values(#{username},#{birthday},#{sex},#{address})
+	</insert>
+
+
+	<!-- 定义一个SQL片段，目的是为了在映射文件中去除重复SQL代码 -->
+	<!-- SQL片段中可以编写一条SQL语句中的任意一段代码 -->
+	<sql id="query_user_where">
+		<!-- test里面可以编写OGNL表达式 -->
+		<if test="user != null">
+			<!-- 判断字符串不为空的标准写法 -->
+			<if test=" user.username != null and user.username !='' ">
+				AND username like '%${user.username}%'
+			</if>
+			<!-- 判断字符串不为空的标准写法 -->
+			<if test=" user.sex != null and user.sex !='' ">
+				AND sex = #{user.sex}
+			</if>
+		</if>
+		<!-- SELECT * FROM USERS WHERE username LIKE '%小明%' -->
+		<if test="idList != null and idList.size() > 0 ">
+			<!-- AND id IN (1,10,16) -->
+			AND id IN
+			<foreach collection="idList" item="id" open=" ( " close=" ) "
+				separator=",">
+				#{id}
+			</foreach>
+
+		</if>
+	</sql>
+
+
+	<!-- 分页查询之查询记录 -->
+	<select id="findUserList" parameterType="UserQueryVO"
+		resultType="user">
+		SELECT * FROM user
+		<where>
+			<include refid="query_user_where" />
+		</where>
+
+	</select>
+
+	<!-- 分页查询之查询总数 -->
+	<select id="findUserCount" parameterType="UserQueryVO"
+		resultType="int">
+		SELECT COUNT(1) FROM user
+		<where>
+			<include refid="query_user_where" />
+		</where>
+
+	</select>
+
+
+	<!-- 延迟加载的思路： -->
+	<!-- 先查询订单信息： -->
+	<!-- 再根据[用户ID]查询用户信息： -->
+
+	<!-- 查询订单关联用户信息使用resultmap -->
+	<resultMap type="OrdersExt" id="ordersAndUserRstMap">
+		<id column="id" property="id" />
+		<result column="user_id" property="user_id" />
+		<result column="number" property="number" />
+		<result column="note" property="note" />
+		<!-- 一对一关联映射 -->
+		<!-- property:Orders对象的user属性 javaType：user属性对应 的类型 -->
+		<!-- select 属性：加载完主信息之后，会根据延迟加载策略，去调用select属性指定的statementID -->
+		<!-- column属性：表示将主查询结果集中指定列的结果取出来，作为参数，传递给select属性的statement中 -->
+		<association property="user"
+			javaType="com.kkb.mybatis.mapper.po.User" column="user_id"
+			select="com.kkb.mybatis.mapper.xml.UserMapper.findUserById"></association>
+	</resultMap>
+	<select id="findOrdersAndUserRstMap"
+		resultMap="ordersAndUserRstMap">
+		SELECT
+		o.id,
+		o.user_id,
+		o.number,
+		o.note
+		FROM
+		orders o
+	</select>
+
+
+</mapper>

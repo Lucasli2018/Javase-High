@@ -2731,3 +2731,400 @@ User [id=2, username=老郭, birthday=2019-04-04 01:24:37.0, sex=男, address=�
 04-04 02:18:46.179 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
 释放资源
 
+04-05 15:59:23.543 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+============================
+
+04-05 15:59:23.546 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+指定全局配置文件路径
+
+04-05 15:59:23.547 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+加载资源文件（全局配置文件和映射文件）
+
+04-05 15:59:23.548 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+使用构建者模式，去创建SqlSessionFactory对象
+
+04-05 15:59:23.789 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+由SqlSessionFactory工厂去创建SqlSession（会话）
+
+04-05 15:59:23.798 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+调用sqlsession接口，去实现数据库的增删改查操作--->test.deleteUserByName
+
+04-05 15:59:24.883 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+删除数据 1 行
+
+04-05 15:59:24.892 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+释放资源
+
+04-05 15:59:24.893 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+============================
+
+04-05 15:59:24.893 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+指定全局配置文件路径
+
+04-05 15:59:24.893 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+加载资源文件（全局配置文件和映射文件）
+
+04-05 15:59:24.894 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+使用构建者模式，去创建SqlSessionFactory对象
+
+04-05 15:59:24.907 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+由SqlSessionFactory工厂去创建SqlSession（会话）
+
+04-05 15:59:24.907 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+调用sqlsession接口，去实现数据库的增删改查操作--->test.findUserListByName
+
+04-05 15:59:24.936 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+[User [id=3, username=lucas, birthday=2019-04-04 01:24:41.0, sex=男, address=null], User [id=5, username=alice, birthday=2019-04-04 01:24:45.0, sex=男, address=null]]
+
+04-05 15:59:24.936 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+释放资源
+
+04-05 15:59:24.937 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+============================
+
+04-05 15:59:24.937 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+指定全局配置文件路径
+
+04-05 15:59:24.937 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+加载资源文件（全局配置文件和映射文件）
+
+04-05 15:59:24.938 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+使用构建者模式，去创建SqlSessionFactory对象
+
+04-05 15:59:24.966 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+由SqlSessionFactory工厂去创建SqlSession（会话）
+
+04-05 15:59:24.966 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+调用sqlsession接口，去实现数据库的增删改查操作--->test.insertUser
+
+04-05 15:59:24.977 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+插入数据 1 行
+
+04-05 15:59:24.981 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+释放资源
+
+04-05 15:59:24.981 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+============================
+
+04-05 15:59:24.982 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+指定全局配置文件路径
+
+04-05 15:59:24.982 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+加载资源文件（全局配置文件和映射文件）
+
+04-05 15:59:24.982 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+使用构建者模式，去创建SqlSessionFactory对象
+
+04-05 15:59:25.013 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+由SqlSessionFactory工厂去创建SqlSession（会话）
+
+04-05 15:59:25.016 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+调用sqlsession接口，去实现数据库的增删改查操作---->test.findUserById
+
+04-05 15:59:25.032 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+User [id=2, username=老郭, birthday=2019-04-04 01:24:37.0, sex=男, address=致真大厦]
+
+04-05 15:59:25.032 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+释放资源
+
+04-05 15:59:25.035 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+============================
+
+04-05 15:59:25.035 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+指定全局配置文件路径
+
+04-05 15:59:25.035 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+加载资源文件（全局配置文件和映射文件）
+
+04-05 15:59:25.035 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+使用构建者模式，去创建SqlSessionFactory对象
+
+04-05 15:59:25.063 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+由SqlSessionFactory工厂去创建SqlSession（会话）
+
+04-05 15:59:25.063 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+调用sqlsession接口，去实现数据库的增删改查操作--->test.deleteUserById
+
+04-05 15:59:25.073 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+删除数据 0 行
+
+04-05 15:59:25.073 [main] INFO  com.lucas.javase.mybatis.demo.MybatisDemo
+释放资源
+
+04-05 16:50:51.851 [main] INFO  com.lucas.javase.mybatis.phase02.Test2
+加载全局配置文件（同时把映射文件也加载了）
+
+04-05 16:50:51.854 [main] INFO  com.lucas.javase.mybatis.phase02.Test2
+sqlsessionFactory需要通过sqlsessionFactoryBuilder读取全局配置文件信息之后
+
+04-05 16:50:52.028 [main] INFO  com.lucas.javase.mybatis.phase02.Test2
+创建UserMapper对象
+
+04-05 16:50:52.035 [main] INFO  com.lucas.javase.mybatis.phase02.Test2
+调用UserMapper对象的API
+
+04-05 16:50:52.263 [main] INFO  com.lucas.javase.mybatis.phase02.Test2
+User [id=3, username=lucas, birthday=Thu Apr 04 01:24:41 CST 2019, sex=男, address=null]
+
+04-05 16:52:02.231 INFO  [main]: com.lucas.javase.mybatis.phase02.Test2
+加载全局配置文件（同时把映射文件也加载了）
+
+04-05 16:52:02.234 INFO  [main]: com.lucas.javase.mybatis.phase02.Test2
+sqlsessionFactory需要通过sqlsessionFactoryBuilder读取全局配置文件信息之后
+
+04-05 16:52:02.406 INFO  [main]: com.lucas.javase.mybatis.phase02.Test2
+创建UserMapper对象
+
+04-05 16:52:02.413 INFO  [main]: com.lucas.javase.mybatis.phase02.Test2
+调用UserMapper对象的API
+
+04-05 16:52:02.647 INFO  [main]: com.lucas.javase.mybatis.phase02.Test2
+User [id=3, username=lucas, birthday=Thu Apr 04 01:24:41 CST 2019, sex=男, address=null]
+
+04-05 16:52:47.661 INFO  [main]: com.lucas.javase.mybatis.phase02.Test2:
+加载全局配置文件（同时把映射文件也加载了）
+
+04-05 16:52:47.663 INFO  [main]: com.lucas.javase.mybatis.phase02.Test2:
+sqlsessionFactory需要通过sqlsessionFactoryBuilder读取全局配置文件信息之后
+
+04-05 16:52:47.828 INFO  [main]: com.lucas.javase.mybatis.phase02.Test2:
+创建UserMapper对象
+
+04-05 16:52:47.832 INFO  [main]: com.lucas.javase.mybatis.phase02.Test2:
+调用UserMapper对象的API
+
+04-05 16:52:48.147 INFO  [main]: com.lucas.javase.mybatis.phase02.Test2:
+User [id=3, username=lucas, birthday=Thu Apr 04 01:24:41 CST 2019, sex=男, address=null]
+
+04-05 17:15:23.941 INFO  [main]: com.lucas.javase.mybatis.phase02.Test3
+加载全局配置文件（同时把映射文件也加载了）
+
+04-05 17:15:23.945 INFO  [main]: com.lucas.javase.mybatis.phase02.Test3
+sqlsessionFactory需要通过sqlsessionFactoryBuilder读取全局配置文件信息之后
+
+04-05 17:15:24.101 INFO  [main]: com.lucas.javase.mybatis.phase02.Test3
+创建UserMapper对象
+
+04-05 17:18:20.183 INFO  [main]: com.lucas.javase.mybatis.phase02.Test3
+加载全局配置文件（同时把映射文件也加载了）
+
+04-05 17:18:20.186 INFO  [main]: com.lucas.javase.mybatis.phase02.Test3
+sqlsessionFactory需要通过sqlsessionFactoryBuilder读取全局配置文件信息之后
+
+04-05 17:18:20.350 INFO  [main]: com.lucas.javase.mybatis.phase02.Test3
+创建UserMapper对象
+
+04-05 17:18:20.355 ERROR [main]: com.lucas.javase.mybatis.phase02.Test3
+Exception
+
+org.apache.ibatis.binding.BindingException: Type interface com.lucas.javase.mybatis.phase02.mapper.AnnotationUserMapper is not known to the MapperRegistry.
+	at org.apache.ibatis.binding.MapperRegistry.getMapper(MapperRegistry.java:47) ~[mybatis-3.4.6.jar:3.4.6]
+	at org.apache.ibatis.session.Configuration.getMapper(Configuration.java:745) ~[mybatis-3.4.6.jar:3.4.6]
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.getMapper(DefaultSqlSession.java:292) ~[mybatis-3.4.6.jar:3.4.6]
+	at com.lucas.javase.mybatis.phase02.Test3.testFindUserById(Test3.java:48) [classes/:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_91]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_91]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_91]
+	at java.lang.reflect.Method.invoke(Unknown Source) ~[?:1.8.0_91]
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50) [junit-4.12.jar:4.12]
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12) [junit-4.12.jar:4.12]
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47) [junit-4.12.jar:4.12]
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17) [junit-4.12.jar:4.12]
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325) [junit-4.12.jar:4.12]
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78) [junit-4.12.jar:4.12]
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363) [junit-4.12.jar:4.12]
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:86) [.cp/:?]
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38) [.cp/:?]
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:459) [.cp/:?]
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:678) [.cp/:?]
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:382) [.cp/:?]
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:192) [.cp/:?]
+04-05 17:24:09.779 INFO  [main]: com.lucas.javase.mybatis.phase02.Test3
+加载全局配置文件（同时把映射文件也加载了）
+
+04-05 17:24:09.782 INFO  [main]: com.lucas.javase.mybatis.phase02.Test3
+sqlsessionFactory需要通过sqlsessionFactoryBuilder读取全局配置文件信息之后
+
+04-05 17:24:09.904 INFO  [main]: com.lucas.javase.mybatis.phase02.Test3
+创建UserMapper对象
+
+04-05 17:24:09.910 ERROR [main]: com.lucas.javase.mybatis.phase02.Test3
+Exception
+
+org.apache.ibatis.binding.BindingException: Type interface com.lucas.javase.mybatis.phase02.mapper.AnnotationUserMapper is not known to the MapperRegistry.
+	at org.apache.ibatis.binding.MapperRegistry.getMapper(MapperRegistry.java:47) ~[mybatis-3.4.6.jar:3.4.6]
+	at org.apache.ibatis.session.Configuration.getMapper(Configuration.java:745) ~[mybatis-3.4.6.jar:3.4.6]
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.getMapper(DefaultSqlSession.java:292) ~[mybatis-3.4.6.jar:3.4.6]
+	at com.lucas.javase.mybatis.phase02.Test3.testFindUserById(Test3.java:48) [classes/:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_91]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_91]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_91]
+	at java.lang.reflect.Method.invoke(Unknown Source) ~[?:1.8.0_91]
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50) [junit-4.12.jar:4.12]
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12) [junit-4.12.jar:4.12]
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47) [junit-4.12.jar:4.12]
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17) [junit-4.12.jar:4.12]
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325) [junit-4.12.jar:4.12]
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78) [junit-4.12.jar:4.12]
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363) [junit-4.12.jar:4.12]
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:86) [.cp/:?]
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38) [.cp/:?]
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:459) [.cp/:?]
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:678) [.cp/:?]
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:382) [.cp/:?]
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:192) [.cp/:?]
+04-05 17:28:16.334 INFO  [main]: com.lucas.javase.mybatis.phase02.Test3
+加载全局配置文件（同时把映射文件也加载了）
+
+04-05 17:28:16.337 INFO  [main]: com.lucas.javase.mybatis.phase02.Test3
+sqlsessionFactory需要通过sqlsessionFactoryBuilder读取全局配置文件信息之后
+
+04-05 17:29:19.542 INFO  [main]: com.lucas.javase.mybatis.phase02.Test3
+加载全局配置文件（同时把映射文件也加载了）
+
+04-05 17:29:19.546 INFO  [main]: com.lucas.javase.mybatis.phase02.Test3
+sqlsessionFactory需要通过sqlsessionFactoryBuilder读取全局配置文件信息之后
+
+04-05 17:29:19.737 INFO  [main]: com.lucas.javase.mybatis.phase02.Test3
+创建UserMapper对象
+
+04-05 17:29:19.741 INFO  [main]: com.lucas.javase.mybatis.phase02.Test3
+调用UserMapper对象的API
+
+04-05 17:29:20.002 INFO  [main]: com.lucas.javase.mybatis.phase02.Test3
+User [id=3, username=lucas, birthday=Thu Apr 04 01:24:41 CST 2019, sex=男, address=null]
+
+04-05 17:32:06.180 INFO  [main]: com.lucas.javase.mybatis.phase02.Test3
+加载全局配置文件（同时把映射文件也加载了）
+
+04-05 17:32:06.183 INFO  [main]: com.lucas.javase.mybatis.phase02.Test3
+sqlsessionFactory需要通过sqlsessionFactoryBuilder读取全局配置文件信息之后
+
+04-05 17:32:06.377 INFO  [main]: com.lucas.javase.mybatis.phase02.Test3
+创建UserMapper对象
+
+04-05 17:32:06.383 INFO  [main]: com.lucas.javase.mybatis.phase02.Test3
+调用UserMapper对象的API
+
+04-05 17:32:06.618 INFO  [main]: com.lucas.javase.mybatis.phase02.Test3
+加载全局配置文件（同时把映射文件也加载了）
+
+04-05 17:32:06.618 INFO  [main]: com.lucas.javase.mybatis.phase02.Test3
+sqlsessionFactory需要通过sqlsessionFactoryBuilder读取全局配置文件信息之后
+
+04-05 17:32:06.630 INFO  [main]: com.lucas.javase.mybatis.phase02.Test3
+创建UserMapper对象
+
+04-05 17:32:06.630 INFO  [main]: com.lucas.javase.mybatis.phase02.Test3
+调用UserMapper对象的API
+
+04-05 17:32:06.648 INFO  [main]: com.lucas.javase.mybatis.phase02.Test3
+User [id=3, username=lucas, birthday=Thu Apr 04 01:24:41 CST 2019, sex=男, address=null]
+
+04-05 17:32:55.695 INFO  [main]: com.lucas.javase.mybatis.phase02.Test3
+加载全局配置文件（同时把映射文件也加载了）
+
+04-05 17:32:55.698 INFO  [main]: com.lucas.javase.mybatis.phase02.Test3
+sqlsessionFactory需要通过sqlsessionFactoryBuilder读取全局配置文件信息之后
+
+04-05 17:32:55.869 INFO  [main]: com.lucas.javase.mybatis.phase02.Test3
+创建UserMapper对象
+
+04-05 17:32:55.876 INFO  [main]: com.lucas.javase.mybatis.phase02.Test3
+调用UserMapper对象的API
+
+04-05 17:32:56.119 INFO  [main]: com.lucas.javase.mybatis.phase02.Test3
+删除数据数量:1
+
+04-05 17:32:56.127 INFO  [main]: com.lucas.javase.mybatis.phase02.Test3
+加载全局配置文件（同时把映射文件也加载了）
+
+04-05 17:32:56.128 INFO  [main]: com.lucas.javase.mybatis.phase02.Test3
+sqlsessionFactory需要通过sqlsessionFactoryBuilder读取全局配置文件信息之后
+
+04-05 17:32:56.138 INFO  [main]: com.lucas.javase.mybatis.phase02.Test3
+创建UserMapper对象
+
+04-05 17:32:56.138 INFO  [main]: com.lucas.javase.mybatis.phase02.Test3
+调用UserMapper对象的API
+
+04-05 17:32:56.151 INFO  [main]: com.lucas.javase.mybatis.phase02.Test3
+User [id=3, username=lucas, birthday=Thu Apr 04 01:24:41 CST 2019, sex=男, address=null]
+
+04-05 17:33:39.497 INFO  [main]: com.lucas.javase.mybatis.phase02.Test3
+加载全局配置文件（同时把映射文件也加载了）
+
+04-05 17:33:39.500 INFO  [main]: com.lucas.javase.mybatis.phase02.Test3
+sqlsessionFactory需要通过sqlsessionFactoryBuilder读取全局配置文件信息之后
+
+04-05 17:33:39.682 INFO  [main]: com.lucas.javase.mybatis.phase02.Test3
+创建UserMapper对象
+
+04-05 17:33:39.692 INFO  [main]: com.lucas.javase.mybatis.phase02.Test3
+调用UserMapper对象的API
+
+04-05 17:33:39.942 INFO  [main]: com.lucas.javase.mybatis.phase02.Test3
+删除数据数量:1
+
+04-05 17:33:39.943 INFO  [main]: com.lucas.javase.mybatis.phase02.Test3
+加载全局配置文件（同时把映射文件也加载了）
+
+04-05 17:33:39.943 INFO  [main]: com.lucas.javase.mybatis.phase02.Test3
+sqlsessionFactory需要通过sqlsessionFactoryBuilder读取全局配置文件信息之后
+
+04-05 17:33:39.953 INFO  [main]: com.lucas.javase.mybatis.phase02.Test3
+创建UserMapper对象
+
+04-05 17:33:39.953 INFO  [main]: com.lucas.javase.mybatis.phase02.Test3
+调用UserMapper对象的API
+
+04-05 17:33:39.967 INFO  [main]: com.lucas.javase.mybatis.phase02.Test3
+User [id=3, username=lucas, birthday=Thu Apr 04 01:24:41 CST 2019, sex=男, address=null]
+
+04-05 21:56:12.750 INFO  [main]: com.lucas.javase.mybatis_generator.GeneratorSqlmap
+指定 逆向工程配置文件
+
+04-05 21:58:50.979 INFO  [main]: com.lucas.javase.mybatis_generator.GeneratorSqlmap
+指定 逆向工程配置文件
+
+04-05 21:58:51.294 INFO  [main]: com.lucas.javase.mybatis_generator.GeneratorSqlmap
+end
+
+04-05 22:00:53.107 INFO  [main]: com.lucas.javase.mybatis_generator.GeneratorSqlmap
+指定 逆向工程配置文件
+
+04-05 22:00:53.450 INFO  [main]: com.lucas.javase.mybatis_generator.GeneratorSqlmap
+end
+
+04-05 22:02:37.204 INFO  [main]: com.lucas.javase.mybatis_generator.GeneratorSqlmap
+指定 逆向工程配置文件
+
+04-05 22:02:37.578 INFO  [main]: com.lucas.javase.mybatis_generator.GeneratorSqlmap
+end
+
+04-05 22:05:16.831 INFO  [main]: com.lucas.javase.mybatis_generator.GeneratorSqlmap
+指定 逆向工程配置文件
+
+04-05 22:05:17.138 INFO  [main]: com.lucas.javase.mybatis_generator.GeneratorSqlmap
+end
+
+04-05 22:05:28.765 INFO  [main]: com.lucas.javase.mybatis_generator.GeneratorSqlmap
+指定 逆向工程配置文件
+
+04-05 22:05:29.076 INFO  [main]: com.lucas.javase.mybatis_generator.GeneratorSqlmap
+end
+

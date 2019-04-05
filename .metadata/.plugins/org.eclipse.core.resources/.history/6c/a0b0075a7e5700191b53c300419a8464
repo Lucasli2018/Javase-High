@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE configuration
+PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+"http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+	<!-- 引入外部的java配置文件（properties文件） -->
+	<!-- property子标签执行顺序会早于 resource属性的解析 -->
+	<properties resource="properties/db.properties">
+		<!-- <property name="db.username" value="123"/> -->
+		<!-- <property name="username" value="123" /> -->
+	</properties>
+
+	<!-- 自定义别名 -->
+	<typeAliases>
+		<!-- 批量别名设置,指定需要别名设置的po类的包名。默认别名就是类名（大小写都可以） -->
+		<package name="com.lucas.javase.mybatis.mapper.po" />
+		<!-- 单个别名设置 -->
+		<!-- <typeAlias type="com.kkb.mybatis.mapper.po.User" alias="user"/> -->
+	</typeAliases>
+	<!-- 数据源连接，实际项目中会交给spring进行管理 -->
+	<environments default="development">
+		<environment id="development">
+			<transactionManager type="JDBC" />
+			<dataSource type="POOLED">
+				<property name="driver" value="${db.driver}" />
+				<property name="url" value="${db.url}" />
+				<property name="username" value="${db.username}" />
+				<property name="password" value="${db.password}" />
+			</dataSource>
+		</environment>
+	</environments>
+	<!-- 加载映射文件 -->
+	<mappers>
+		<!-- <mapper resource="UserMapper.xml" /> -->
+		<mapper resource="mapper/UserMapper.xml" />
+		<!-- <mapper url="file://d:/sqlmap/User.xml"/> -->
+
+		<!-- <mapper class="com.kkb.mybatis.anno.AnnotationUserMapper"/> -->
+		<!-- 批量加载 -->
+		<!-- <package name="com.kkb.mybatis.mapper" /> -->
+		<!-- <package name="com.kkb.mybatis.mapper.annotation" /> -->
+		<!-- <package name="com.kkb.mybatis.mapper.xml" /> -->
+	</mappers>
+</configuration>

@@ -1,0 +1,10 @@
+package com.lucas.javase.mybatis.phase02.mapper;
+
+import org.apache.ibatis.annotations.Select;
+
+import com.lucas.javase.mybatis.phase02.po.User;
+
+public interface AnnotationUserMapper {
+	@Select("SELECT * FROM user WHERE id = #{id}")
+	User findUserById(int id);
+}

@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?><testrun name="MybatisDemo" project="maven" tests="5" started="5" failures="0" errors="0" ignored="0">
-  <testsuite name="com.lucas.javase.mybatis.demo.MybatisDemo" time="0.507">
-    <testcase name="testDeleteUser2" classname="com.lucas.javase.mybatis.demo.MybatisDemo" time="0.361"/>
-    <testcase name="testFindUserListByName" classname="com.lucas.javase.mybatis.demo.MybatisDemo" time="0.055"/>
-    <testcase name="testInsertUser" classname="com.lucas.javase.mybatis.demo.MybatisDemo" time="0.037"/>
-    <testcase name="testFindUserById" classname="com.lucas.javase.mybatis.demo.MybatisDemo" time="0.029"/>
-    <testcase name="testDeleteUser" classname="com.lucas.javase.mybatis.demo.MybatisDemo" time="0.025"/>
-  </testsuite>
-</testrun>

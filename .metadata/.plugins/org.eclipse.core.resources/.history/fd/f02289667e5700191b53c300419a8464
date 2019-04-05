@@ -1,0 +1,47 @@
+package com.lucas.javase.mybatis.mapper.po;
+
+
+//注意事项：该POJO类一般由逆向工程生成，每次生成都会覆盖
+public class Orders {
+
+	private int id;
+	private int userId;
+	private String number;
+	private String note;
+	
+	public int getId() {
+		return id;
+	}
+
+	public void setId(int id) {
+		this.id = id;
+	}
+
+	public String getNumber() {
+		return number;
+	}
+
+	public void setNumber(String number) {
+		this.number = number;
+	}
+
+	public String getNote() {
+		return note;
+	}
+
+	public void setNote(String note) {
+		this.note = note;
+	}
+
+	public int getUserId() {
+		return userId;
+	}
+
+	public void setUserId(int userId) {
+		this.userId = userId;
+	}
+
+
+	
+	
+}
