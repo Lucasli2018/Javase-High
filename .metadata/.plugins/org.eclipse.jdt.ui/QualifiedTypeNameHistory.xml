@@ -1,8 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-<fullyQualifiedTypeName name="com.lucas.javase.oop.basic.constructor.Person"/>
-<fullyQualifiedTypeName name="java.util.Arrays"/>
-<fullyQualifiedTypeName name="org.omg.Dynamic.Parameter"/>
 <fullyQualifiedTypeName name="com.lucas.javase.oop.basic.abstractClass.Shape"/>
 <fullyQualifiedTypeName name="com.lucas.javase.oop.basic.abstractClass.Rect"/>
 <fullyQualifiedTypeName name="com.lucas.javase.oop.basic.abstractClass.Circle"/>
@@ -30,11 +27,37 @@
 <fullyQualifiedTypeName name="org.apache.ibatis.io.Resources"/>
 <fullyQualifiedTypeName name="com.lucas.javase.mybatis.phase01.dao.UserDao"/>
 <fullyQualifiedTypeName name="com.lucas.javase.mybatis.phase01.dao.UserDaoImpl"/>
-<fullyQualifiedTypeName name="org.apache.ibatis.session.SqlSession"/>
 <fullyQualifiedTypeName name="com.lucas.javase.mybatis.phase01.po.User"/>
 <fullyQualifiedTypeName name="com.mysql.jdbc.log.Log"/>
-<fullyQualifiedTypeName name="org.apache.commons.logging.Log"/>
-<fullyQualifiedTypeName name="org.apache.commons.logging.LogFactory"/>
 <fullyQualifiedTypeName name="org.junit.After"/>
 <fullyQualifiedTypeName name="com.lucas.javase.mybatis.demo.po.User"/>
+<fullyQualifiedTypeName name="com.lucas.javase.mybatis.mapper.xml.UserMapper"/>
+<fullyQualifiedTypeName name="com.lucas.javase.mybatis.mapper.annotation.AnnotationUserMapper"/>
+<fullyQualifiedTypeName name="com.lucas.javase.mybatis.mapper.po.User"/>
+<fullyQualifiedTypeName name="com.lucas.javase.mybatis.mapper.po.UserQueryVO"/>
+<fullyQualifiedTypeName name="com.lucas.javase.mybatis.mapper.po.UserExt"/>
+<fullyQualifiedTypeName name="com.lucas.javase.mybatis.mapper.po.OrdersExt"/>
+<fullyQualifiedTypeName name="com.lucas.javase.mybatis.phase02.mapper.UserMapper"/>
+<fullyQualifiedTypeName name="com.lucas.javase.mybatis.phase02.po.User"/>
+<fullyQualifiedTypeName name="com.lucas.javase.mybatis.phase03.po.UserExample"/>
+<fullyQualifiedTypeName name="com.lucas.javase.mybatis.phase03.po.User"/>
+<fullyQualifiedTypeName name="com.lucas.javase.mybatis.phase03.mapper.UserMapper"/>
+<fullyQualifiedTypeName name="org.apache.ibatis.annotations.Select"/>
+<fullyQualifiedTypeName name="com.lucas.javase.mybatis.phase02.mapper.AnnotationUserMapper"/>
+<fullyQualifiedTypeName name="org.apache.ibatis.session.SqlSession"/>
+<fullyQualifiedTypeName name="org.apache.ibatis.annotations.Delete"/>
+<fullyQualifiedTypeName name="com.lucas.javase.mybatis.phase04.po.UserQueryVO"/>
+<fullyQualifiedTypeName name="com.lucas.javase.mybatis.phase04.po.OrdersExt"/>
+<fullyQualifiedTypeName name="com.lucas.javase.mybatis.phase04.po.UserExt"/>
+<fullyQualifiedTypeName name="com.lucas.javase.mybatis.phase04.annotation.AnnotationUserMapper"/>
+<fullyQualifiedTypeName name="com.lucas.javase.mybatis.phase04.xml.UserMapper"/>
+<fullyQualifiedTypeName name="com.lucas.javase.mybatis.phase04.po.User"/>
+<fullyQualifiedTypeName name="com.lucas.javase.mybatis.generator.po.CustomerExample"/>
+<fullyQualifiedTypeName name="com.lucas.javase.mybatis.generator.mapper.AccountMapper"/>
+<fullyQualifiedTypeName name="com.kkb.mybatis.generator.po.AccountExample"/>
+<fullyQualifiedTypeName name="com.lucas.javase.mybatis.generator.po.AccountExample.Criteria"/>
+<fullyQualifiedTypeName name="com.lucas.javase.mybatis.generator.po.AccountExample"/>
+<fullyQualifiedTypeName name="com.lucas.javase.mybatis.generator.po.Account"/>
+<fullyQualifiedTypeName name="org.apache.commons.logging.LogFactory"/>
+<fullyQualifiedTypeName name="org.apache.commons.logging.Log"/>
 </qualifiedTypeNameHistroy>

@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?><testrun name="Test3" project="maven" tests="2" started="2" failures="0" errors="0" ignored="0">
-  <testsuite name="com.lucas.javase.mybatis.phase02.Test3" time="0.428">
-    <testcase name="testDeleteUserByName" classname="com.lucas.javase.mybatis.phase02.Test3" time="0.397"/>
-    <testcase name="testFindUserById" classname="com.lucas.javase.mybatis.phase02.Test3" time="0.031"/>
-  </testsuite>
-</testrun>
