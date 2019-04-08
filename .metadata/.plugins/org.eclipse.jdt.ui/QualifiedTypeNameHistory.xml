@@ -1,22 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-<fullyQualifiedTypeName name="com.lucas.javase.oop.basic.abstractClass.Shape"/>
-<fullyQualifiedTypeName name="com.lucas.javase.oop.basic.abstractClass.Rect"/>
-<fullyQualifiedTypeName name="com.lucas.javase.oop.basic.abstractClass.Circle"/>
-<fullyQualifiedTypeName name="java.awt.List"/>
-<fullyQualifiedTypeName name="com.lucas.javase.oop.basic.scope.Hello"/>
-<fullyQualifiedTypeName name="java.lang.String"/>
-<fullyQualifiedTypeName name="java.nio.charset.StandardCharsets"/>
-<fullyQualifiedTypeName name="java.beans.Introspector"/>
-<fullyQualifiedTypeName name="java.beans.BeanInfo"/>
-<fullyQualifiedTypeName name="java.beans.PropertyDescriptor"/>
-<fullyQualifiedTypeName name="java.lang.reflect.Method"/>
-<fullyQualifiedTypeName name="java.util.List"/>
-<fullyQualifiedTypeName name="java.util.ArrayList"/>
-<fullyQualifiedTypeName name="java.util.Collection"/>
-<fullyQualifiedTypeName name="java.lang.IllegalArgumentException"/>
-<fullyQualifiedTypeName name="java.lang.NullPointerException"/>
-<fullyQualifiedTypeName name="java.lang.Exception"/>
 <fullyQualifiedTypeName name="java.util.logging.Logger"/>
 <fullyQualifiedTypeName name="java.util.logging.Level"/>
 <fullyQualifiedTypeName name="org.junit.Before"/>
@@ -60,4 +43,21 @@
 <fullyQualifiedTypeName name="com.lucas.javase.mybatis.generator.po.Account"/>
 <fullyQualifiedTypeName name="org.apache.commons.logging.LogFactory"/>
 <fullyQualifiedTypeName name="org.apache.commons.logging.Log"/>
+<fullyQualifiedTypeName name="java.beans.Introspector"/>
+<fullyQualifiedTypeName name="java.beans.BeanInfo"/>
+<fullyQualifiedTypeName name="java.beans.PropertyDescriptor"/>
+<fullyQualifiedTypeName name="java.lang.RuntimeException"/>
+<fullyQualifiedTypeName name="com.lucas.javase.annotation.practise.RangeException"/>
+<fullyQualifiedTypeName name="com.lucas.javase.annotation.practise.ZipCode"/>
+<fullyQualifiedTypeName name="java.lang.Object"/>
+<fullyQualifiedTypeName name="java.lang.Comparable"/>
+<fullyQualifiedTypeName name="com.lucas.javase.generic.erasure.StudentPair"/>
+<fullyQualifiedTypeName name="com.lucas.javase.generic.use.Student"/>
+<fullyQualifiedTypeName name="com.lucas.javase.generic.erasure.GenericHelper"/>
+<fullyQualifiedTypeName name="java.util.LinkedList"/>
+<fullyQualifiedTypeName name="java.util.Arrays"/>
+<fullyQualifiedTypeName name="java.util.TreeMap"/>
+<fullyQualifiedTypeName name="java.util.TreeSet"/>
+<fullyQualifiedTypeName name="java.util.LinkedHashSet"/>
+<fullyQualifiedTypeName name="java.util.Comparator"/>
 </qualifiedTypeNameHistroy>

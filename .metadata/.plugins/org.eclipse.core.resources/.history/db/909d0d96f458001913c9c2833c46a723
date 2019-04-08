@@ -1,0 +1,10 @@
+package com.lucas.javase.generic.erasure;
+
+
+public class StudentPair extends Pair<Integer> {
+
+	public StudentPair(Integer first, Integer last) {
+		super(first, last);
+	}
+
+}

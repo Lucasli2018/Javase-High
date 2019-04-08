@@ -1,0 +1,19 @@
+package com.feiyangedu.sample;
+
+public class Main {
+
+	public static void main(String[] args) {
+		Pair<Number> p = new Pair<>(123, 45.67);
+		int sum = add(p);
+		System.out.println(sum);
+		System.out.println(add(new Pair<Integer>(123, 456)));
+		System.out.println(add(new Pair<Double>(12.3, 45.6)));
+	}
+
+	static int add(Pair<? extends Number> p) {
+		Number first = p.getFirst();
+		Number last = p.getLast();
+		return first.intValue() + last.intValue();
+	}
+
+}
