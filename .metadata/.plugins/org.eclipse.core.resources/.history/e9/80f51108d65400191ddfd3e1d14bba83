@@ -1,9 +1,0 @@
-package com.lucas.javase.oop.basic.practise;
-
-public class City {
-	// TODO:
-	// 请定义class City，该class具有如下字段:
-	// name: 名称，String类型
-	// latitude: 纬度，double类型
-	// longitude: 经度，double类型
-}

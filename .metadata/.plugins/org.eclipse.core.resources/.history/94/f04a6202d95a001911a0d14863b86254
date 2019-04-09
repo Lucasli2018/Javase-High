@@ -1,0 +1,46 @@
+package com.lucas.javase.io.basic.practise;
+
+import java.io.File;
+import java.io.IOException;
+
+public class Main {
+
+	public static void main(String[] args) throws IOException {
+		String path = ".";
+		if (args.length >= 1) {
+			path = args[0];
+		}
+		File dir = new File(path).getCanonicalFile();
+		// TODO: 按层级打印dir目录下所有子目录和文件
+		System.out.println(dir.getCanonicalPath());
+		printFile(dir, "|_");
+	}
+
+	static void printFile(File dir, String str) throws IOException {
+
+		String[] all = dir.list();
+		for (String string : all) {
+			File tmp = new File(string);
+			// 如果是目录，输出目录的文件，否则直接输出
+			if (tmp.isDirectory()) {
+				System.out.println(string);
+				printFile(tmp, "|__");
+			} else {
+				System.out.println(str + string);
+			}
+		}
+	}
+
+	static void printDirectory(File dir,String str) {
+		if(dir.isDirectory()){
+			System.out.println(str);
+			printDirectory(dir,str);
+		}else{
+			printFiles(dir,"\t");
+		}
+	}
+
+	static void printFiles(File dir,String str) {
+		System.out.println();
+	}
+}

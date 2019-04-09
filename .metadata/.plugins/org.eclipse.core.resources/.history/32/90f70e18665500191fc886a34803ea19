@@ -1,8 +1,0 @@
-package com.lucas.javase.oop.basic.Enumeration;
-
-
-public enum Weekday {
-
-	SUN, MON, TUE, WED, THU, FRI, SAT;
-
-}
