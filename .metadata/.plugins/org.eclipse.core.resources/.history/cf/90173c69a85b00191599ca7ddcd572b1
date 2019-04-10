@@ -1,0 +1,5 @@
+package com.lucas.javase.io.serializable;
+
+public class Person {
+
+}

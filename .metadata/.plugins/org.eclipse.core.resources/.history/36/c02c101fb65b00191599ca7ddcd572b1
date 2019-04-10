@@ -1,0 +1,46 @@
+package com.lucas.javase.time.flightTime;
+
+
+import java.time.LocalDate;
+import java.time.LocalDateTime;
+import java.time.LocalTime;
+import java.time.ZoneId;
+import java.time.ZonedDateTime;
+import java.time.format.DateTimeFormatter;
+import java.util.Scanner;
+
+public class Main {
+
+	public static void main(String[] args) throws Exception {
+		// 输入：
+		//Scanner scanner = new Scanner(System.in);
+		//System.out.print("Departure date (yyyy-MM-dd): ");
+		String departureDate = "2019-01-01";//scanner.nextLine();
+		//System.out.print("Departure time (HH:mm): ");
+		String departureTime ="08:30"; //scanner.nextLine();
+		
+		// TODO: 飞行12小时15分钟，计算到达的当地时间：
+		LocalDate d=LocalDate.parse(departureDate, DateTimeFormatter.ofPattern("yyyy-MM-dd"));
+		LocalTime t=LocalTime.parse(departureTime, DateTimeFormatter.ofPattern("HH:mm"));
+		System.out.println("departureDate: " +d);
+		System.out.println("departureTime: " +t);
+		
+		System.out.println();
+		DateTimeFormatter dtf=DateTimeFormatter.ofPattern("yyyy-MM-dd HH:mm");
+		
+		LocalDateTime dt=LocalDateTime.parse(departureDate+" "+departureTime, dtf);
+		System.out.println("departureDateTime:"+dt.atZone(ZoneId.systemDefault()));
+		ZonedDateTime ny=dt.atZone(ZoneId.systemDefault()).withZoneSameInstant(ZoneId.of("America/New_York"));
+		System.out.println("departureDateTime:"+ny);
+		System.out.println("flight ...12 hours 15 minuts");
+		LocalDateTime dt2=dt.plusHours(12).plusMinutes(15);
+		System.out.println("departureDateTime:"+dt2.atZone(ZoneId.systemDefault()));
+		System.out.println("departureDateTime:"+dt2.atZone(ZoneId.systemDefault()).withZoneSameInstant(ZoneId.of("America/New_York")));
+		LocalDate arrivalDate = null;//dt2.atZone(ZoneId.of("America/New_York"));
+		LocalTime arrivalTime = dt2.toLocalTime();
+		// 输出：
+		System.out.println("Arrival date: " + arrivalDate);
+		System.out.println("Arrival time: " + arrivalTime);
+	}
+
+}

@@ -324,3 +324,147 @@ static void copyGbkToUtf8(String src, String dest) throws UnsupportedEncodingExc
 	}
 ```
 
+### 压缩文件
+
+读取压缩文件读取ZipInputStream也是一种包装类
+
+```java
+public static void main(String[] args) throws Exception {
+		try(ZipInputStream zip=new ZipInputStream(new BufferedInputStream(new FileInputStream("test.jar")))){
+			ZipEntry entry=null;
+			while((entry=zip.getNextEntry())!=null){
+				if(entry.isDirectory()){
+					System.out.println("D "+entry.getName());
+				}else{
+					System.out.println("F "+entry.getName()+" "+entry.getSize());
+					printFileContent(zip);
+				}
+			}
+		}
+	}
+
+	private static void printFileContent(ZipInputStream zip) throws IOException {
+		ByteArrayOutputStream output=new ByteArrayOutputStream();
+		byte[] buffer=new byte[1024];
+		int n;
+		while((n=zip.read(buffer))!=-1){
+			output.write(buffer,0,n);
+		}
+		byte[] data=output.toByteArray();
+		System.out.println(" size: "+data.length);
+	}
+```
+
+### classpath
+
+优点：从classpath读取文件可以避免不同环境（win和mac）文件路径不一致问题，解决**文件路径依赖**问题
+
+- Class对象的getResourceAsStream可以从classpath读取资源
+- 需要检查返回的InputStream是否为null
+
+```java
+//从classpath读取配置文件.properties
+		String pros="/conf.properties";
+		try(InputStream input=Main.class.getResourceAsStream(pros)){
+			if(input!=null){
+				System.out.println("Read /conf.properties...");
+				Properties props=new Properties();
+				props.load(input);
+				System.out.println("name="+props.getProperty("name"));
+			}else{
+				System.out.println("Resource not found: "+pros);
+			}
+		}
+		
+		//从classpath读取txt文件
+		String data="/com/lucas/javase/io/classpath/data.txt";
+		try (InputStream input = Main.class.getResourceAsStream(data)) {
+			if(input!=null){
+				System.out.println("Read "+data+"...");
+				BufferedReader reader=new BufferedReader(new InputStreamReader(input));
+				System.out.println(reader.readLine());
+			}else{
+				System.out.println("Resource not found: "+pros);
+			}
+		}
+```
+
+### 序列化
+
+- 把一个java对象变成二进制内容（byte[]）
+- 序列化后可以把byte[]保存到文件中
+- 序列化后可以把byte[]通过网络传输 
+
+#### 标记接口
+
+空接口叫做**标记接口**（Marker Interface）
+
+- Serializable接口没有定义任何方法
+- 一个java对象要能序列化必须实现Serializable接口
+
+#### 反序列化
+
+- 把一个二进制内容（byte[]）变成java对象
+- 反序列化可以从文件读取byte[]变成java对象
+- 反序列化可以从网络读取byte[]变成java对象
+
+读取java对象流ObjectInputStream
+
+input.readObject()读取java对象
+
+可能的异常：
+
+- ClassNotFoundException：没有找到对应Class
+- InvalidClassException：Class不匹配
+
+反序列化有JVM直接构造出java对象，不调用构造方法
+
+```java
+String dataFile="saved.data";
+		/*try(ObjectOutputStream output=new ObjectOutputStream(new BufferedOutputStream(new FileOutputStream(dataFile)))){
+			//依次写入int，String，Person
+			output.writeInt(999);
+			output.writeUTF("Hello,world!");
+			output.writeObject(new Person("lucas"));
+		}*/
+		System.out.println("Read ...");
+		try(ObjectInputStream input=new ObjectInputStream(new BufferedInputStream(new FileInputStream(dataFile)))){
+			//依次读取int，String,Person
+			System.out.println(input.readInt());
+			System.out.println(input.readUTF());
+			Person p=(Person) input.readObject();
+			System.out.println(p);
+		}
+```
+
+Person.java
+
+```java
+public class Person implements Serializable{
+	private static final long serialVersionUID = -264706335817L;//如果修改了这里，反序列化的时候会不匹配
+
+	public Person(String name) {
+		System.out.println("Create "+name);//反序列化不执行
+		this.name = name;
+	}
+
+	private final String name;
+
+	public String getName() {
+		return name;
+	}
+
+	@Override
+	public String toString() {
+		return "Person [name=" + name + "]";
+	}
+	
+}
+```
+
+
+
+#### 总结
+
+- 可序列号java对象必须实现java.io.Serializable接口
+- java序列化仅仅适用于java，如果与其他语言交互，必须使用通用序列化方法，例如JSON

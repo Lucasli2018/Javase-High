@@ -19,10 +19,15 @@ public class Zone {
 		int mm = c.get(Calendar.MINUTE);
 		int ss = c.get(Calendar.SECOND);
 		System.out.println(y + "-" + m + "-" + d + " " + hh + ":" + mm + ":" + ss);
-		
+		System.out.println("所有时区：");
 		String[] s=TimeZone.getAvailableIDs();
-		for (String string : s) {
+		for (int i = 0; i < s.length; i++) {
+			String string = s[i];
 			System.out.println(string);
+			if(i>5){
+				System.out.println("...");
+				break;
+			}
 		}
 	}
 

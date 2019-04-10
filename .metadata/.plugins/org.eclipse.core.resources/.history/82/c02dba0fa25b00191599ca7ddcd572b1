@@ -1,0 +1,12 @@
+package com.lucas.javase.io.zip;
+
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+
+public class Main {
+
+	public static void main(String[] args) throws Exception {
+		new FileInputStream("test.jar");
+	}
+
+}

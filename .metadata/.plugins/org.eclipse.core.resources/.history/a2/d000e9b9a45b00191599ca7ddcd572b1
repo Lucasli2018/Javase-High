@@ -1,0 +1,22 @@
+package com.lucas.javase.io.classpath;
+
+import java.io.IOException;
+import java.io.InputStream;
+
+public class Main {
+
+	public static void main(String[] args) throws IOException {
+		//从classpath读取配置文件.properties
+		String pros="/conf.properties";
+		try(InputStream input=Main.class.getResourceAsStream(pros)){
+			
+		}
+		
+		//从classpath读取txt文件
+		String data="/com/lucas/javase/io/classpath/data.txt";
+		try (InputStream input = Main.class.getResourceAsStream(data)) {
+
+		}
+	}
+
+}
