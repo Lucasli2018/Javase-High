@@ -1,6 +1,0 @@
-package com.lucas.javase.exception.BaseException;
-
-
-public class UserNotFoundException extends BaseException {
-
-}

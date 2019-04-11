@@ -6,6 +6,7 @@ import java.time.LocalDate;
 import java.time.LocalDateTime;
 import java.time.LocalTime;
 import java.time.ZoneId;
+import java.time.ZoneOffset;
 import java.time.ZonedDateTime;
 import java.time.format.DateTimeFormatter;
 import java.util.Scanner;
@@ -21,8 +22,8 @@ public class Main {
 		String departureTime ="08:30"; //scanner.nextLine();
 		
 		// TODO: 飞行12小时15分钟，计算到达的当地时间：
-		LocalDate d=LocalDate.parse(departureDate, DateTimeFormatter.ofPattern("yyyy-MM-dd"));
-		LocalTime t=LocalTime.parse(departureTime, DateTimeFormatter.ofPattern("HH:mm"));
+		LocalDate d=LocalDate.now();//LocalDate.parse(departureDate, DateTimeFormatter.ofPattern("yyyy-MM-dd"));
+		LocalTime t=LocalTime.now();//LocalTime.parse(departureTime, DateTimeFormatter.ofPattern("HH:mm"));
 		System.out.println("departureDate: " +d);
 		System.out.println("departureTime: " +t);
 		

@@ -1,0 +1,20 @@
+package com.lucas.javase.security.base64;
+
+
+import java.util.Base64;
+
+public class SecBase64 {
+
+	public static void main(String[] args) throws Exception {
+		String original = "Hello\u00ff编码测试";
+		String b64 = Base64.getEncoder().encodeToString(original.getBytes("UTF-8"));
+		System.out.println(b64);
+		String ori = new String(Base64.getDecoder().decode(b64), "UTF-8");
+		System.out.println(ori);
+		
+		System.out.println();
+		String text="测试邮件标题";
+		String base64=Base64.getEncoder().encodeToString(text.getBytes("UTF-8"));
+		System.out.println(base64);
+	}
+}

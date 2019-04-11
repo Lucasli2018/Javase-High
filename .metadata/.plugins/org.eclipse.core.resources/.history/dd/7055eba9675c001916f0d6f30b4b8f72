@@ -1,0 +1,21 @@
+package com.lucas.javase.security.url;
+
+
+import java.net.URLDecoder;
+import java.net.URLEncoder;
+import java.nio.charset.StandardCharsets;
+
+public class SecURL {
+
+	public static void main(String[] args) throws Exception {
+		String original = "URL 参数";
+		String encoded = URLEncoder.encode(original, "UTF-8");
+		System.out.println(encoded);
+		String ori = new String(URLDecoder.decode(encoded, "UTF-8"));
+		System.out.println(ori);
+		
+		String url="Hello World";
+		String url_encoded=URLEncoder.encode(url,"UTF-8");
+		
+	}
+}
