@@ -1,8 +1,0 @@
-package com.lucas.javase.reflection;
-
-
-public interface Hello {
-
-	void hello();
-
-}

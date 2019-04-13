@@ -1,14 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-<fullyQualifiedTypeName name="com.lucas.javase.mybatis.generator.po.AccountExample"/>
-<fullyQualifiedTypeName name="com.lucas.javase.mybatis.generator.po.Account"/>
 <fullyQualifiedTypeName name="java.beans.Introspector"/>
 <fullyQualifiedTypeName name="java.beans.BeanInfo"/>
 <fullyQualifiedTypeName name="java.beans.PropertyDescriptor"/>
 <fullyQualifiedTypeName name="java.lang.RuntimeException"/>
 <fullyQualifiedTypeName name="com.lucas.javase.annotation.practise.RangeException"/>
 <fullyQualifiedTypeName name="com.lucas.javase.annotation.practise.ZipCode"/>
-<fullyQualifiedTypeName name="java.lang.Object"/>
 <fullyQualifiedTypeName name="java.lang.Comparable"/>
 <fullyQualifiedTypeName name="com.lucas.javase.generic.erasure.StudentPair"/>
 <fullyQualifiedTypeName name="com.lucas.javase.generic.use.Student"/>
@@ -60,4 +57,7 @@
 <fullyQualifiedTypeName name="java.math.BigInteger"/>
 <fullyQualifiedTypeName name="java.io.FileNotFoundException"/>
 <fullyQualifiedTypeName name="java.util.Arrays"/>
+<fullyQualifiedTypeName name="java.lang.Thread"/>
+<fullyQualifiedTypeName name="java.lang.Object"/>
+<fullyQualifiedTypeName name="java.util.concurrent.locks.Lock"/>
 </qualifiedTypeNameHistroy>

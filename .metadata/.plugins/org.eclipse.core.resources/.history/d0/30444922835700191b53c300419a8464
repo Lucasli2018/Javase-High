@@ -1,7 +1,0 @@
-package com.lucas.javase.mybatis.phase02.mapper;
-
-import com.lucas.javase.mybatis.phase02.po.User;
-
-public interface AnnotationUserMapper {
-	User findUserById(int id);
-}

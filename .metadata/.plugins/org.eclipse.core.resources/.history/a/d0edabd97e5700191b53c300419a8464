@@ -1,6 +1,0 @@
-package com.lucas.javase.mybatis.phase02.mapper;
-
-
-public interface UserMapper {
-	User findUserById(int id);
-}
