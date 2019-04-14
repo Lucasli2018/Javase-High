@@ -366,3 +366,417 @@ public class Main {
 ```
 
 改一改就可以实现顺序下载多个图片
+
+### ReentrantLock
+
+ReentrantLock可以替代synchronized
+
+ReentrantLock获取锁更安全
+
+必须使用`try … finally`保证正确获取和释放锁
+
+`tryLock()`可指定超时
+
+ReentrantLock是可重入锁：一个线程可以多次获取同一个锁
+
+```java
+class Counter {
+
+	private Lock lock = new ReentrantLock();
+
+	private int value = 0;
+
+	public void add(int m) {
+		lock.lock();
+		try {
+			this.value += m;
+		} finally {
+			lock.unlock();
+		}
+	}
+
+	public void dec(int m) {
+		lock.lock();
+		try {
+			this.value -= m;
+		} finally {
+			lock.unlock();
+		}
+	}
+
+	public int get() {
+		lock.lock();
+		try {
+			return this.value;
+		} finally {
+			lock.unlock();
+		}
+	}
+}
+
+public class Main {
+
+	final static int LOOP = 100;
+
+	public static void main(String[] args) throws Exception {
+		Counter counter = new Counter();
+		Thread t1 = new Thread() {
+			public void run() {
+				for (int i = 0; i < LOOP; i++) {
+					counter.add(1);
+				}
+			}
+		};
+		Thread t2 = new Thread() {
+			public void run() {
+				for (int i = 0; i < LOOP; i++) {
+					counter.dec(1);
+				}
+			}
+		};
+		t1.start();
+		t2.start();
+		t1.join();
+		t2.join();
+		System.out.println(counter.get());
+	}
+
+```
+
+### ReadWriteLock
+
+reentrant可重入的
+
+使用ReadWriteLock可以提高读取效率：
+
+* ReadWriteLock只允许一个线程写入
+
+* ReadWriteLock允许多个线程同时读取
+
+* ReadWriteLock适合读多写少的场景
+
+![1555215753479](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\1555215753479.png)
+
+### Condition
+
+原理就是给线程的组合对象加锁
+
+Condition可以替代wait / notify
+
+Condition对象必须从ReentrantLock对象获取
+
+ReentrantLock＋Condition可以替代synchronized + wait / notify
+
+```java
+class TaskQueue {
+
+	final Queue<String> queue = new LinkedList<>();
+
+	final Lock lock = new ReentrantLock();
+	final Condition notEmpty = lock.newCondition();
+
+	public String getTask() throws InterruptedException {
+		lock.lock();
+		try {
+			while (this.queue.isEmpty()) {
+				notEmpty.await();
+			}
+			return queue.remove();
+		} finally {
+			lock.unlock();
+		}
+	}
+
+	public void addTask(String name) {
+		lock.lock();
+		try {
+			this.queue.add(name);
+			notEmpty.signalAll();
+		} finally {
+			lock.unlock();
+		}
+	}
+}
+```
+
+
+
+### concurrent集合
+
+使用java.util.concurrent提供的Blocking集合可以简化多线程编程：
+
+* CopyOnWriteArrayList
+* ConcurrentHashMap
+* CopyOnWriteArraySet
+* **ArrayBlockingQueue**
+* LinkedBlockingQueue
+* LinkedBlockingDeque
+
+多线程同时访问Blocking集合是安全的
+
+尽量使用JDK提供的concurrent集合，避免自己编写同步代码
+
+
+
+### Atomic原子操作
+
+使用java.util.atomic提供的原子操作可以简化多线程编程：
+
+AtomicInteger／AtomicLong／AtomicIntegerArray等
+
+原子操作实现了无锁的线程安全
+
+适用于计数器，累加器等
+
+### ExecutorService线程池
+
+线程池：
+
+- 维护多个线程，处于等待状态
+- 如果有新任务，就分配一个空闲线程执行
+- 如果所有线程都处于忙碌状态，新任务放入队列等待
+
+JDK提供了ExecutorService实现了线程池功能
+
+线程池内部维护一组线程，可以高效执行大量小任务
+
+Executors提供了静态方法创建不同类型的ExecutorService
+
+常用ExecutorService：
+
+* FixedThreadPool：线程数固定
+* CachedThreadPool：线程数根据任务动态调整
+* SingleThreadExecutor：仅单线程执行
+
+必须调用shutdown()关闭ExecutorService
+
+**ScheduledThreadPool可以定期调度多个任务（可取代Timer）**
+
+#### 队列线程池
+
+```java
+public static void main(String[] args) throws Exception {
+		ExecutorService executor = Executors.newFixedThreadPool(3);
+		executor.submit(new PrintTask("Bob"));
+		executor.submit(new PrintTask("Alice"));
+		executor.submit(new PrintTask("Tim"));
+		executor.submit(new PrintTask("Robot"));//在队列等待
+		Thread.sleep(10000);
+		executor.shutdown();
+	}
+```
+
+#### 单线程池
+
+```java
+public static void main(String[] args) throws Exception {
+		ExecutorService executor = Executors.newSingleThreadExecutor();//单线程串行方式执行
+		executor.submit(new PrintTask("Bob"));
+		executor.submit(new PrintTask("Alice"));
+		executor.submit(new PrintTask("Tim"));
+		executor.submit(new PrintTask("Robot"));
+		Thread.sleep(10000);
+		executor.shutdown();
+	}
+```
+
+#### 自动调整线程池
+
+```java
+public static void main(String[] args) throws Exception {
+		ExecutorService executor = Executors.newCachedThreadPool();//自动创建4个线程
+		executor.submit(new PrintTask("Bob"));
+		executor.submit(new PrintTask("Alice"));
+		executor.submit(new PrintTask("Tim"));
+		executor.submit(new PrintTask("Robot"));
+		Thread.sleep(10000);
+		executor.shutdown();
+	}
+```
+
+#### 限制数量线程池
+
+```java
+public static void main(String[] args) throws Exception {
+		ExecutorService executor =new ThreadPoolExecutor(0, 10,//最多允许10个线程
+                60L, TimeUnit.SECONDS,
+                new SynchronousQueue<Runnable>());
+		executor.submit(new PrintTask("Bob"));
+		executor.submit(new PrintTask("Alice"));
+		executor.submit(new PrintTask("Tim"));
+		executor.submit(new PrintTask("Robot"));
+		Thread.sleep(10000);
+		executor.shutdown();
+	}
+```
+
+Timer可以定时执行一个任务，但是一个Timer对应一个Thread，执行定期执行一个任务，如果要执行多个任务，需要启动多个Timer
+
+而一个ThreadPool可以调度多个任务，所以可以使用ScheduleThreadPool取代旧的Timer类
+
+### Future
+
+Future表示一个未来可能会返回的结果
+
+提交Callable任务，可以获得一个Future对象
+
+可以用Future在将来某个时刻获取结果
+
+#### 异步下载
+
+get方法可能会阻塞
+
+```java
+class DownloadTask implements Callable<String> {
+	String url;
+
+	public DownloadTask(String url) {
+		this.url = url;
+	}
+
+	public String call() throws Exception {
+		System.out.println("Start download " + url + "...");
+		URLConnection conn = new URL(this.url).openConnection();
+		conn.connect();
+		try (BufferedReader reader = new BufferedReader(new InputStreamReader(conn.getInputStream(), "UTF-8"))) {
+			String s = null;
+			StringBuilder sb = new StringBuilder();
+			while ((s = reader.readLine()) != null) {
+				sb.append(s).append("\n");
+			}
+			return sb.toString();
+		}
+	}
+}
+
+public class Main {
+
+	public static void main(String[] args) throws Exception {
+		ExecutorService executor = Executors.newFixedThreadPool(3);
+		DownloadTask task = new DownloadTask("https://www.sina.com.cn/");
+		Future<String> future = executor.submit(task);
+		String html = future.get();
+		System.out.println(html);
+		executor.shutdown();
+	}
+}
+```
+
+### CompletableFuture
+
+CompletableFuture的优点：
+
+* 异步任务结束时，会自动回调某个对象的方法
+* 异步任务出错时，会自动回调某个对象的方法
+* 主线程设置好回调后，不再关心异步任务的执行
+
+CompletableFuture对象可以指定异步处理流程：
+
+* thenAccept()处理正常结果
+* exceptional()处理异常结果
+* thenApplyAsync() 用于串行化另一个CompletableFuture
+* anyOf / allOf 用于并行化两个CompletableFuture
+
+#### 并行下载
+
+```java
+public static void main(String[] args) throws Exception {
+		String name = "上证指数";
+		CompletableFuture<String> getStockCodeFuture = CompletableFuture.supplyAsync(new StockLookupSupplier(name));
+		CompletableFuture<Price> getStockPriceFuture = getStockCodeFuture.thenApplyAsync(new Function<String, Price>() {
+			public Price apply(String code) {
+				System.out.println("got code: " + code);
+				try {
+					String url = "http://hq.sinajs.cn/list=" + code;
+					String result = DownloadUtil.download(url);
+					String[] ss = result.split(",");
+					return new Price(code, Float.parseFloat(ss[3]));
+				} catch (Exception e) {
+					throw new RuntimeException(e);
+				}
+			}
+		});
+		getStockPriceFuture.thenAccept(new Consumer<Price>() {
+			public void accept(Price p) {
+				System.out.println(p.code + ": " + p.price);
+			}
+		});
+		getStockPriceFuture.join();
+	}
+```
+
+
+
+```
+public static void main(String[] args) throws Exception {
+		CompletableFuture<StockPrice> getStockFromNetease = CompletableFuture.supplyAsync(new StockFromNetease());
+		CompletableFuture<StockPrice> getStockFromSina = CompletableFuture.supplyAsync(new StockFromSina());
+		CompletableFuture<Object> getStock = CompletableFuture.anyOf(getStockFromSina, getStockFromNetease);
+		getStock.thenAccept(new Consumer<Object>() {
+			public void accept(Object result) {
+				System.out.println("Reuslt: " + result);
+			}
+		});
+		getStock.join();
+	}
+```
+
+### Fork/Join
+
+Fork/Join是一种基于“分治”的算法：分解任务＋合并结果
+
+ForkJoinPool线程池可以把一个大任务分拆成小任务并行执行
+
+任务类必须继承自RecursiveTask／RecursiveAction
+
+使用Fork/Join模式可以进行并行计算提高效率
+
+java.util.Arrays.parallelSort（array)内部就是使用forkjoin对数据进行排序
+
+### ThreadLocal
+
+- Treah是多线程基础
+
+- ExecutorService线程池
+
+- ScheduledThreadPool定时任务
+
+- Fork/Join并行
+
+完成多任务模式
+
+每一个用户访问浏览器，就从线程池取出一个线程对象，或者创建一个新的线程对象
+
+调用Thread.currentThread()获取当前线程。
+
+JDK提供了ThreadLocal，在一个线程中传递同一个对象。
+
+ThreadLocal表示线程的“局部变量”，它确保每个线程的ThreadLocal变量都是各自独立的。
+
+ThreadLocal适合在一个线程的处理流程中保持上下文（避免了同一参数在所有方法中传递）
+
+使用ThreadLocal要用try … finally结构。（finally中一定要清楚状态）
+
+#### 通过线程对象传递参数
+
+```java
+class ProcessThread extends Thread {
+	User user;
+
+	ProcessThread(User user) {
+		this.user = user;
+	}
+
+	public void run() {
+		try (UserContext ctx = new UserContext(user)) {
+			// step 1:
+			new Greeting().hello();//尽管hello方法没有参数，但是通过线程对象已经将需要的参数传递进去了
+			// step 2:
+			Level.checkLevel();
+			// step 3:
+			// TODO:
+		}
+	}
+}
+```
+

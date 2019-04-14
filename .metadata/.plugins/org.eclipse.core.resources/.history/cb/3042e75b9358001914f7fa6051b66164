@@ -1,5 +1,0 @@
-package com.lucas.javase.annotation.practise;
-
-public class RangeException {
-
-}
