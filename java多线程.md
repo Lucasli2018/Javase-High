@@ -735,7 +735,7 @@ java.util.Arrays.parallelSort（array)内部就是使用forkjoin对数据进行�
 
 ### ThreadLocal
 
-- Treah是多线程基础
+- Thread是多线程基础
 
 - ExecutorService线程池
 

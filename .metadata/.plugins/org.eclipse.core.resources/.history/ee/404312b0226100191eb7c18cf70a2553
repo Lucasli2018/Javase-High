@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration>
+	<Appenders>
+		<Console name="stdout">
+			<PatternLayout pattern="%d %p [%t]: %m%n" />
+		</Console>
+		<RollingFile name="all" bufferedIO="true" fileName="log/all.log"
+			filePattern="log/all.%i.log.gz">
+			<PatternLayout pattern="%d{MM-dd HH:mm:ss.SSS} %-5level [%t]: %logger{36} %msg%n%n" />
+			<!-- 这里Polices的意思是每当文件大小达到1mb时，切割成新的文件 -->
+			<Policies>
+				<SizeBasedTriggeringPolicy size="1 MB" />
+			</Policies>
+			<DefaultRolloverStrategy max="10" />
+		</RollingFile>
+	</Appenders>
+	<Loggers>
+		<Root level="info">
+			<AppenderRef ref="stdout" />
+			<!-- 这里必须绑定一个Appender否则无法输出 -->
+			<AppenderRef ref="all" level="info" />
+		</Root>
+	</Loggers>
+</Configuration>

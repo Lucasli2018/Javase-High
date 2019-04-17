@@ -1,5 +1,0 @@
-package com.lucas.javase.io.Filter;
-
-public class CountInputStream {
-
-}

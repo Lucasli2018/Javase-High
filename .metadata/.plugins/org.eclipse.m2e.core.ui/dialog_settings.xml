@@ -57,13 +57,13 @@
 	</section>
 	<section name="Maven2ProjectWizardArchifactPage">
 		<list key="package">
-			<item value="com.lucas.javase.demo.maven"/>
+			<item value="com.lucas.javase.mavendemo"/>
 		</list>
 		<list key="groupId">
-			<item value="com.lucas.javase.demo"/>
+			<item value="com.lucas.javase"/>
 		</list>
 		<list key="artifactId">
-			<item value="maven"/>
+			<item value="mavendemo"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>
